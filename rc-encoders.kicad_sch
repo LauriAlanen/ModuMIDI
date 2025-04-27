@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "84d33011-94e0-40e9-afc6-428e18f9230f")
+	(uuid "d912f799-120c-4421-ac92-9f85b49f1c3b")
 	(paper "A4")
 	(lib_symbols
 		(symbol "SamacSys_Parts:4816P-T01-103LF"
@@ -744,7 +744,7 @@
 		)
 	)
 	(junction
-		(at 39.37 133.35)
+		(at 186.69 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05cea010-5af6-4099-b17c-c54844bf2082")
@@ -756,19 +756,19 @@
 		(uuid "0d93805c-66ce-439c-a9b0-0343f5f9d029")
 	)
 	(junction
-		(at 64.77 133.35)
+		(at 212.09 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1bd4cf6c-1b34-4c91-b48d-4a93f1bfa44c")
 	)
 	(junction
-		(at 90.17 133.35)
+		(at 237.49 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24add2f4-ac10-4014-843c-9f5f8fd842a1")
 	)
 	(junction
-		(at 64.77 179.07)
+		(at 212.09 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b75e7a6-c90b-4ee8-bdf6-980b1a75d36f")
@@ -834,7 +834,7 @@
 		(uuid "724a1721-862f-421d-b1fb-181a519ebd2b")
 	)
 	(junction
-		(at 102.87 133.35)
+		(at 250.19 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73da1d41-7728-4838-a8fe-84b05c112ea7")
@@ -852,13 +852,13 @@
 		(uuid "829a04ff-cb76-4dbb-81b9-957a1318fdbe")
 	)
 	(junction
-		(at 77.47 179.07)
+		(at 224.79 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84d7ff21-c91d-4cf3-aae9-eddfd07f96e6")
 	)
 	(junction
-		(at 52.07 133.35)
+		(at 199.39 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "875792cf-35ad-4a1c-a50f-aadb3d3c3ef5")
@@ -876,7 +876,7 @@
 		(uuid "9281fbfa-6dc3-4729-b90d-534308f6c9a8")
 	)
 	(junction
-		(at 77.47 133.35)
+		(at 224.79 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "975e1521-dcb2-431b-9200-ecb3e34299c1")
@@ -888,7 +888,7 @@
 		(uuid "a8427cd9-d9bb-4ca8-b5ba-13d79ee72ea4")
 	)
 	(junction
-		(at 102.87 179.07)
+		(at 250.19 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab840da3-b3b3-45d6-a3bd-329fb8d07fe6")
@@ -912,7 +912,7 @@
 		(uuid "b647a0f3-a0bb-4808-a1e6-45db9a437e63")
 	)
 	(junction
-		(at 52.07 179.07)
+		(at 199.39 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb505464-d493-46dc-84f7-b797c3177387")
@@ -936,7 +936,7 @@
 		(uuid "cbc75b2a-0379-4a2d-87e4-dcf3f96e2fc7")
 	)
 	(junction
-		(at 115.57 179.07)
+		(at 262.89 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd1b8083-22a2-4da7-bb97-a989794550db")
@@ -954,7 +954,7 @@
 		(uuid "d56c1507-dfe7-40fa-b718-d378be4741eb")
 	)
 	(junction
-		(at 39.37 179.07)
+		(at 186.69 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8de56d5-9f32-4ae5-a869-82c368ac5dfd")
@@ -990,7 +990,7 @@
 		(uuid "e67f77c4-455c-4309-8ee2-ef36f9914745")
 	)
 	(junction
-		(at 90.17 179.07)
+		(at 237.49 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e81ac8fc-21b6-4ab1-a5e3-690f5d6604c7")
@@ -1008,14 +1008,14 @@
 		(uuid "ef696b40-38e8-4bc1-a905-c556e8b8a363")
 	)
 	(junction
-		(at 115.57 133.35)
+		(at 262.89 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7bb240c-908e-4be8-a161-18e2f3a33052")
 	)
 	(wire
 		(pts
-			(xy 64.77 129.54) (xy 64.77 133.35)
+			(xy 212.09 110.49) (xy 212.09 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1025,7 +1025,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 133.35) (xy 115.57 133.35)
+			(xy 250.19 114.3) (xy 262.89 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1105,7 +1105,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 175.26) (xy 90.17 179.07)
+			(xy 237.49 148.59) (xy 237.49 152.4)
 		)
 		(stroke
 			(width 0)
@@ -1135,7 +1135,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 129.54) (xy 52.07 133.35)
+			(xy 199.39 110.49) (xy 199.39 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1145,7 +1145,17 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 110.49) (xy 52.07 116.84)
+			(xy 78.74 106.68) (xy 85.09 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12731da5-7e01-499e-81d2-46bd3775fe50")
+	)
+	(wire
+		(pts
+			(xy 199.39 91.44) (xy 199.39 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1215,6 +1225,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 85.09) (xy 85.09 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c13bd7c-d069-48b9-959b-aebbe552001c")
+	)
+	(wire
+		(pts
 			(xy 74.93 30.48) (xy 85.09 30.48)
 		)
 		(stroke
@@ -1235,7 +1255,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 110.49) (xy 77.47 116.84)
+			(xy 224.79 91.44) (xy 224.79 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1265,7 +1285,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 133.35) (xy 128.27 129.54)
+			(xy 275.59 114.3) (xy 275.59 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1282,6 +1302,16 @@
 			(type default)
 		)
 		(uuid "235ae46d-8203-47e5-b7fd-9b59bec8c97a")
+	)
+	(wire
+		(pts
+			(xy 78.74 104.14) (xy 85.09 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24b28e45-953e-47d5-bbc2-be238608a75f")
 	)
 	(wire
 		(pts
@@ -1325,7 +1355,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 179.07) (xy 64.77 179.07)
+			(xy 199.39 152.4) (xy 212.09 152.4)
 		)
 		(stroke
 			(width 0)
@@ -1335,7 +1365,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 110.49) (xy 90.17 116.84)
+			(xy 237.49 91.44) (xy 237.49 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1375,13 +1405,23 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 154.94) (xy 115.57 162.56)
+			(xy 262.89 128.27) (xy 262.89 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2f166bd3-0785-429c-ae0d-f5f2fbd9d4d4")
+	)
+	(wire
+		(pts
+			(xy 78.74 100.33) (xy 85.09 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30172472-ffea-4813-8fd9-acdcf2ac07a1")
 	)
 	(wire
 		(pts
@@ -1455,7 +1495,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 133.35) (xy 52.07 133.35)
+			(xy 186.69 114.3) (xy 199.39 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1465,7 +1505,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 154.94) (xy 90.17 162.56)
+			(xy 237.49 128.27) (xy 237.49 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1505,13 +1545,23 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 129.54) (xy 102.87 133.35)
+			(xy 250.19 110.49) (xy 250.19 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "407f0b43-d44b-49c6-9f7e-d11872e72187")
+	)
+	(wire
+		(pts
+			(xy 78.74 114.3) (xy 85.09 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40a9e979-2d08-4a79-a2b5-bdb509876880")
 	)
 	(wire
 		(pts
@@ -1535,7 +1585,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 179.07) (xy 102.87 179.07)
+			(xy 237.49 152.4) (xy 250.19 152.4)
 		)
 		(stroke
 			(width 0)
@@ -1595,6 +1645,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 124.46) (xy 85.09 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "474950af-f587-4013-9814-57d9020fbf3f")
+	)
+	(wire
+		(pts
 			(xy 172.72 40.64) (xy 172.72 53.34)
 		)
 		(stroke
@@ -1605,7 +1665,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 129.54) (xy 77.47 133.35)
+			(xy 224.79 110.49) (xy 224.79 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1675,6 +1735,26 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 104.14) (xy 114.3 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53bc6915-aaa1-474c-bcfb-0cf0a6d62104")
+	)
+	(wire
+		(pts
+			(xy 78.74 97.79) (xy 85.09 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5436eed4-55ed-4053-a9e7-f4f2aa03ee3b")
+	)
+	(wire
+		(pts
 			(xy 146.05 66.04) (xy 165.1 66.04)
 		)
 		(stroke
@@ -1695,7 +1775,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 129.54) (xy 39.37 133.35)
+			(xy 186.69 110.49) (xy 186.69 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1705,7 +1785,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 110.49) (xy 39.37 116.84)
+			(xy 186.69 91.44) (xy 186.69 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1715,7 +1795,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 110.49) (xy 115.57 116.84)
+			(xy 262.89 91.44) (xy 262.89 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1735,7 +1815,27 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 154.94) (xy 77.47 162.56)
+			(xy 78.74 111.76) (xy 85.09 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "630daac9-5267-4697-8789-a9f1fdb53d03")
+	)
+	(wire
+		(pts
+			(xy 78.74 120.65) (xy 85.09 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63cc9805-85bd-4af5-adb7-ce33b5606f0b")
+	)
+	(wire
+		(pts
+			(xy 224.79 128.27) (xy 224.79 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1765,7 +1865,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 129.54) (xy 115.57 133.35)
+			(xy 262.89 110.49) (xy 262.89 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1785,7 +1885,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 179.07) (xy 52.07 179.07)
+			(xy 186.69 152.4) (xy 199.39 152.4)
 		)
 		(stroke
 			(width 0)
@@ -1825,7 +1925,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 175.26) (xy 64.77 179.07)
+			(xy 212.09 148.59) (xy 212.09 152.4)
 		)
 		(stroke
 			(width 0)
@@ -1862,6 +1962,16 @@
 			(type default)
 		)
 		(uuid "743f8e56-e816-4d83-8fe5-b99f1302bbc2")
+	)
+	(wire
+		(pts
+			(xy 78.74 127) (xy 85.09 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75025873-5355-4f4d-84cc-67c098c95129")
 	)
 	(wire
 		(pts
@@ -1945,7 +2055,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 133.35) (xy 77.47 133.35)
+			(xy 212.09 114.3) (xy 224.79 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1955,7 +2065,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 179.07) (xy 128.27 175.26)
+			(xy 275.59 152.4) (xy 275.59 148.59)
 		)
 		(stroke
 			(width 0)
@@ -1982,6 +2092,16 @@
 			(type default)
 		)
 		(uuid "83ab69fe-0888-4171-9a25-298e743bfc13")
+	)
+	(wire
+		(pts
+			(xy 119.38 111.76) (xy 114.3 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86ef3384-de47-4ae7-8109-abe796f72643")
 	)
 	(wire
 		(pts
@@ -2015,7 +2135,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 154.94) (xy 52.07 162.56)
+			(xy 199.39 128.27) (xy 199.39 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2035,7 +2155,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 133.35) (xy 90.17 133.35)
+			(xy 224.79 114.3) (xy 237.49 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2045,7 +2165,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 154.94) (xy 39.37 162.56)
+			(xy 186.69 128.27) (xy 186.69 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2055,7 +2175,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 133.35) (xy 128.27 133.35)
+			(xy 262.89 114.3) (xy 275.59 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2065,7 +2185,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 154.94) (xy 64.77 162.56)
+			(xy 212.09 128.27) (xy 212.09 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2075,7 +2195,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 175.26) (xy 39.37 179.07)
+			(xy 186.69 148.59) (xy 186.69 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2175,13 +2295,23 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 179.07) (xy 128.27 179.07)
+			(xy 262.89 152.4) (xy 275.59 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a1f4ae17-1bb6-4e01-955a-f09750a1b976")
+	)
+	(wire
+		(pts
+			(xy 78.74 87.63) (xy 85.09 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a28ef33b-d9a4-4f84-adb7-b8d3365036f2")
 	)
 	(wire
 		(pts
@@ -2205,7 +2335,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 175.26) (xy 115.57 179.07)
+			(xy 262.89 148.59) (xy 262.89 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2232,6 +2362,16 @@
 			(type default)
 		)
 		(uuid "aa036c0b-9b3c-4cde-890e-56639d51132b")
+	)
+	(wire
+		(pts
+			(xy 119.38 124.46) (xy 114.3 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaa81df7-6e0d-44f8-865f-6b92c4bc6b4c")
 	)
 	(wire
 		(pts
@@ -2265,7 +2405,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 133.35) (xy 64.77 133.35)
+			(xy 199.39 114.3) (xy 212.09 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2285,7 +2425,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 110.49) (xy 128.27 116.84)
+			(xy 275.59 91.44) (xy 275.59 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2295,7 +2435,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 133.35) (xy 102.87 133.35)
+			(xy 237.49 114.3) (xy 250.19 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2345,7 +2485,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 179.07) (xy 90.17 179.07)
+			(xy 224.79 152.4) (xy 237.49 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2355,7 +2495,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 110.49) (xy 102.87 116.84)
+			(xy 250.19 91.44) (xy 250.19 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2375,7 +2515,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 110.49) (xy 64.77 116.84)
+			(xy 212.09 91.44) (xy 212.09 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2395,13 +2535,23 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 179.07) (xy 115.57 179.07)
+			(xy 250.19 152.4) (xy 262.89 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c32f6d98-4785-4a2d-9c2e-7eea0c6c4954")
+	)
+	(wire
+		(pts
+			(xy 119.38 91.44) (xy 114.3 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9b9c774-c881-4a09-995f-20829a471cda")
 	)
 	(wire
 		(pts
@@ -2475,6 +2625,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 118.11) (xy 85.09 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4593cab-fea9-4273-81f1-ddd130b4c41d")
+	)
+	(wire
+		(pts
 			(xy 172.72 71.12) (xy 222.25 71.12)
 		)
 		(stroke
@@ -2485,7 +2645,27 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 179.07) (xy 39.37 182.88)
+			(xy 119.38 118.11) (xy 114.3 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5d37e51-c506-401c-a370-bf0ca2575448")
+	)
+	(wire
+		(pts
+			(xy 78.74 133.35) (xy 85.09 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d66f6dc8-fd9a-432f-afb8-f7c2391e17f5")
+	)
+	(wire
+		(pts
+			(xy 186.69 152.4) (xy 186.69 156.21)
 		)
 		(stroke
 			(width 0)
@@ -2515,6 +2695,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 97.79) (xy 114.3 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9b21f20-74f3-43be-a079-4e80c60041dc")
+	)
+	(wire
+		(pts
 			(xy 168.91 68.58) (xy 168.91 82.55)
 		)
 		(stroke
@@ -2525,7 +2715,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 175.26) (xy 52.07 179.07)
+			(xy 199.39 148.59) (xy 199.39 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2545,7 +2735,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 154.94) (xy 102.87 162.56)
+			(xy 250.19 128.27) (xy 250.19 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2575,7 +2765,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 154.94) (xy 128.27 162.56)
+			(xy 275.59 128.27) (xy 275.59 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2585,7 +2775,17 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 175.26) (xy 77.47 179.07)
+			(xy 78.74 130.81) (xy 85.09 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1959aa1-6bf0-482a-a2e7-01d67dd58ab5")
+	)
+	(wire
+		(pts
+			(xy 224.79 148.59) (xy 224.79 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2605,6 +2805,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 91.44) (xy 85.09 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3077b5e-bc07-4413-96e2-83ff6cd483d0")
+	)
+	(wire
+		(pts
 			(xy 165.1 66.04) (xy 222.25 66.04)
 		)
 		(stroke
@@ -2615,7 +2825,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 129.54) (xy 90.17 133.35)
+			(xy 237.49 110.49) (xy 237.49 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2645,7 +2855,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 179.07) (xy 77.47 179.07)
+			(xy 212.09 152.4) (xy 224.79 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2675,13 +2885,23 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 175.26) (xy 102.87 179.07)
+			(xy 250.19 148.59) (xy 250.19 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f1d7ea03-76c2-4939-9b31-6a99bad89419")
+	)
+	(wire
+		(pts
+			(xy 119.38 130.81) (xy 114.3 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f792958c-fd94-41b9-8deb-e3e1d6288bdf")
 	)
 	(wire
 		(pts
@@ -2695,6 +2915,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 93.98) (xy 85.09 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f966d4e6-eaaf-4eba-93b3-0c18face196f")
+	)
+	(wire
+		(pts
 			(xy 50.8 63.5) (xy 50.8 60.96)
 		)
 		(stroke
@@ -2705,7 +2935,17 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 133.35) (xy 39.37 137.16)
+			(xy 119.38 85.09) (xy 114.3 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbd5e5e8-1846-469a-b61e-6687f50580d8")
+	)
+	(wire
+		(pts
+			(xy 186.69 114.3) (xy 186.69 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2754,7 +2994,7 @@
 		(uuid "18e99096-61e0-47da-af53-9f2359b9df99")
 	)
 	(label "C12_In"
-		(at 77.47 154.94 270)
+		(at 224.79 128.27 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2804,7 +3044,7 @@
 		(uuid "2636c5a6-923e-43ca-a9e9-5b94b160c41a")
 	)
 	(label "C13_In"
-		(at 90.17 154.94 270)
+		(at 237.49 128.27 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2824,7 +3064,7 @@
 		(uuid "35d882ed-9aa8-4496-8cc5-217b9de37478")
 	)
 	(label "C4_In"
-		(at 77.47 110.49 270)
+		(at 224.79 91.44 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2844,7 +3084,7 @@
 		(uuid "399bcb20-8289-4306-a9be-b7fc49f95b8a")
 	)
 	(label "C16_In"
-		(at 128.27 154.94 270)
+		(at 275.59 128.27 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2854,7 +3094,7 @@
 		(uuid "3e0339aa-8204-4b9e-a3c3-d80ed2ce41a0")
 	)
 	(label "C11_In"
-		(at 64.77 154.94 270)
+		(at 212.09 128.27 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2874,7 +3114,7 @@
 		(uuid "40ab2d27-50e6-4071-9e7a-29f7daa9fae0")
 	)
 	(label "C6_In"
-		(at 102.87 110.49 270)
+		(at 250.19 91.44 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2884,7 +3124,7 @@
 		(uuid "4823cb3a-1eae-4e85-b2a0-2337d5f002fe")
 	)
 	(label "C15_In"
-		(at 115.57 154.94 270)
+		(at 262.89 128.27 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2894,7 +3134,7 @@
 		(uuid "49014196-895a-4439-966e-1152a1a756f7")
 	)
 	(label "C7_In"
-		(at 115.57 110.49 270)
+		(at 262.89 91.44 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2924,7 +3164,7 @@
 		(uuid "6c5de787-07ee-4eaa-b246-e2cee6066a67")
 	)
 	(label "C9_In"
-		(at 39.37 154.94 270)
+		(at 186.69 128.27 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2934,7 +3174,7 @@
 		(uuid "6ec295ac-5e93-4b49-89db-c5b3e6c38654")
 	)
 	(label "C10_In"
-		(at 52.07 154.94 270)
+		(at 199.39 128.27 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2964,7 +3204,7 @@
 		(uuid "875cb821-b6ae-49c7-b9d9-750cbb0cc84a")
 	)
 	(label "C1_In"
-		(at 39.37 110.49 270)
+		(at 186.69 91.44 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2994,7 +3234,7 @@
 		(uuid "c567302f-3147-4ece-89e2-6a12f607ee0e")
 	)
 	(label "C2_In"
-		(at 52.07 110.49 270)
+		(at 199.39 91.44 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3004,7 +3244,7 @@
 		(uuid "c8024e8e-51ca-4893-a854-57d75882706a")
 	)
 	(label "C14_In"
-		(at 102.87 154.94 270)
+		(at 250.19 128.27 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3014,7 +3254,7 @@
 		(uuid "ce4335aa-4cb3-4b8c-9e31-74efa81815fd")
 	)
 	(label "C8_In"
-		(at 128.27 110.49 270)
+		(at 275.59 91.44 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3024,7 +3264,7 @@
 		(uuid "d7a1fc34-2bdf-4525-b9ef-12774945c68a")
 	)
 	(label "C3_In"
-		(at 64.77 110.49 270)
+		(at 212.09 91.44 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3044,7 +3284,7 @@
 		(uuid "db75e6ad-f2c3-4dd6-8f7a-92bb22544a6b")
 	)
 	(label "C5_In"
-		(at 90.17 110.49 270)
+		(at 237.49 91.44 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3064,6 +3304,61 @@
 		)
 		(uuid "022124d7-09c1-4a0d-ba6d-43884d1f8fe6")
 	)
+	(hierarchical_label "E6_LED_ORANGE"
+		(shape input)
+		(at 78.74 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "141af892-2549-4a0f-861d-74563c3f065b")
+	)
+	(hierarchical_label "E3_LED_BLUE"
+		(shape input)
+		(at 78.74 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "17b1b729-47eb-4096-9a0d-fbe707281f5b")
+	)
+	(hierarchical_label "E7_SW"
+		(shape output)
+		(at 119.38 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "18f24898-fa5a-4b9d-95cc-aa53db46bec3")
+	)
+	(hierarchical_label "E3_SW"
+		(shape output)
+		(at 119.38 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2a86973f-d71a-4045-b29e-b030edfa6eeb")
+	)
+	(hierarchical_label "E5_LED_ORANGE"
+		(shape input)
+		(at 78.74 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e3e9fa9-ced5-4f9a-8114-ff44a3383c72")
+	)
 	(hierarchical_label "AOut7"
 		(shape output)
 		(at 223.52 45.72 0)
@@ -3074,6 +3369,28 @@
 			(justify left)
 		)
 		(uuid "46353bfc-cc8b-43fe-b809-b336d558a63c")
+	)
+	(hierarchical_label "E3_LED_ORANGE"
+		(shape input)
+		(at 78.74 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4da3c0e1-d144-48e6-9b05-fc9777adcf19")
+	)
+	(hierarchical_label "E1_LED_BLUE"
+		(shape input)
+		(at 78.74 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5164edc5-289d-4199-b4d2-63a0b7e28cc2")
 	)
 	(hierarchical_label "AOut8"
 		(shape output)
@@ -3097,6 +3414,28 @@
 		)
 		(uuid "66d0fad6-d6db-4497-aedf-71e639ff3c5f")
 	)
+	(hierarchical_label "E7_LED_BLUE"
+		(shape input)
+		(at 78.74 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6cca438f-ff6a-4d9f-8913-ee8cbdf77997")
+	)
+	(hierarchical_label "E5_LED_BLUE"
+		(shape input)
+		(at 78.74 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "70fb2697-d9cd-49b2-a5c2-77e35d203775")
+	)
 	(hierarchical_label "AOut6"
 		(shape output)
 		(at 223.52 43.18 0)
@@ -3107,6 +3446,17 @@
 			(justify left)
 		)
 		(uuid "72f25ee6-ee27-41bb-9ebb-7431da9ea447")
+	)
+	(hierarchical_label "E1_LED_ORANGE"
+		(shape input)
+		(at 78.74 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "866c90f9-36ca-4d40-99f9-3afb0d22cb30")
 	)
 	(hierarchical_label "AOut1"
 		(shape output)
@@ -3119,6 +3469,17 @@
 		)
 		(uuid "87d54332-44bc-4734-a4c7-f6d6c4c229a2")
 	)
+	(hierarchical_label "E7_LED_ORANGE"
+		(shape input)
+		(at 78.74 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "89ba1115-8c6f-4d1d-83d3-fe43763f8473")
+	)
 	(hierarchical_label "BOut5"
 		(shape output)
 		(at 222.25 71.12 0)
@@ -3130,6 +3491,28 @@
 		)
 		(uuid "8cfda9b2-9872-464f-99f6-4480f3579597")
 	)
+	(hierarchical_label "E8_LED_ORANGE"
+		(shape input)
+		(at 78.74 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8e620100-83b4-41e6-9569-c34f057f3938")
+	)
+	(hierarchical_label "E8_SW"
+		(shape output)
+		(at 119.38 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "92a3aaec-fce6-4155-bf97-c03d64943abc")
+	)
 	(hierarchical_label "AOut2"
 		(shape output)
 		(at 223.52 33.02 0)
@@ -3140,6 +3523,28 @@
 			(justify left)
 		)
 		(uuid "9c8f6799-4e7c-4f8b-ab4d-93cbe1949c6a")
+	)
+	(hierarchical_label "E4_LED_BLUE"
+		(shape input)
+		(at 78.74 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9fa205bd-a40a-46a4-b852-d8922e631d9a")
+	)
+	(hierarchical_label "E2_LED_BLUE"
+		(shape input)
+		(at 78.74 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9fb1af53-bc71-4fb1-a6b0-8930450a0dcd")
 	)
 	(hierarchical_label "BOut7"
 		(shape output)
@@ -3174,6 +3579,17 @@
 		)
 		(uuid "a482632e-ab53-4728-99c6-36a468c6903d")
 	)
+	(hierarchical_label "E4_SW"
+		(shape output)
+		(at 119.38 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a55f22d2-0ede-4a52-ab95-7766d061ce08")
+	)
 	(hierarchical_label "BOut6"
 		(shape output)
 		(at 222.25 73.66 0)
@@ -3196,6 +3612,28 @@
 		)
 		(uuid "ba5dbc71-ce41-4a2c-9f18-aedf798b8952")
 	)
+	(hierarchical_label "E5_SW"
+		(shape output)
+		(at 119.38 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ba60ab22-a537-4c2b-a76e-c17df1296058")
+	)
+	(hierarchical_label "E1_SW"
+		(shape output)
+		(at 119.38 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d8e83441-0e09-4fdd-ad38-669bbafd56af")
+	)
 	(hierarchical_label "AOut3"
 		(shape output)
 		(at 223.52 35.56 0)
@@ -3207,6 +3645,28 @@
 		)
 		(uuid "dd4e5f21-5639-40bb-bd55-f6141ab33c6c")
 	)
+	(hierarchical_label "E2_SW"
+		(shape output)
+		(at 119.38 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dfa287bc-7f38-467c-a9d4-4c4f183ef2a4")
+	)
+	(hierarchical_label "E6_SW"
+		(shape output)
+		(at 119.38 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dfac0a50-2045-457c-904f-5122e868fac8")
+	)
 	(hierarchical_label "AOut4"
 		(shape output)
 		(at 223.52 38.1 0)
@@ -3217,6 +3677,17 @@
 			(justify left)
 		)
 		(uuid "eb669ca6-0889-49d1-889c-946f39eb3979")
+	)
+	(hierarchical_label "E4_LED_ORANGE"
+		(shape input)
+		(at 78.74 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ecbbe4c9-759b-4829-b44a-0edf69cd21fc")
 	)
 	(hierarchical_label "BOut3"
 		(shape output)
@@ -3240,9 +3711,42 @@
 		)
 		(uuid "eed34872-b71c-4dba-8248-bc06bcf8b529")
 	)
+	(hierarchical_label "E2_LED_ORANGE"
+		(shape input)
+		(at 78.74 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f466b880-eb45-461a-83a5-a883a117309a")
+	)
+	(hierarchical_label "E6_LED_BLUE"
+		(shape input)
+		(at 78.74 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fed79f97-1ea9-4280-a417-123bd399ddd8")
+	)
+	(hierarchical_label "E8_LED_BLUE"
+		(shape input)
+		(at 78.74 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ffaf0ca7-abed-4d15-ae7b-8ffc3b7a001f")
+	)
 	(symbol
 		(lib_id "SamacSys_Parts:885012208009")
-		(at 128.27 116.84 270)
+		(at 275.59 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3251,7 +3755,7 @@
 		(fields_autoplaced yes)
 		(uuid "0136eb59-7822-4f05-a8fe-6c2ba9112c65")
 		(property "Reference" "C8"
-			(at 132.08 123.1899 90)
+			(at 279.4 104.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3260,7 +3764,7 @@
 			)
 		)
 		(property "Value" "885012208009"
-			(at 132.08 124.4599 90)
+			(at 279.4 105.4099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3270,7 +3774,7 @@
 			)
 		)
 		(property "Footprint" "CAPC3216X90N"
-			(at 32.08 125.73 0)
+			(at 179.4 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3280,7 +3784,7 @@
 			)
 		)
 		(property "Datasheet" "https://katalog.we-online.com/pbs/datasheet/885012208009.pdf"
-			(at -67.92 125.73 0)
+			(at 79.4 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3290,7 +3794,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Chip Capacitor WCAP-CSGP Series 1206 100000pF X7R1206104K010DFCT10000"
-			(at 128.27 116.84 0)
+			(at 275.59 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3299,7 +3803,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at -267.92 125.73 0)
+			(at -120.6 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3309,7 +3813,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at -367.92 125.73 0)
+			(at -220.6 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3319,7 +3823,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "885012208009"
-			(at -467.92 125.73 0)
+			(at -320.6 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3329,7 +3833,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-885012208009"
-			(at -567.92 125.73 0)
+			(at -420.6 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3339,7 +3843,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/885012208009/?qs=0KOYDY2FL28pBXnWSpSHJw%3D%3D"
-			(at -667.92 125.73 0)
+			(at -520.6 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3349,7 +3853,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at -767.92 125.73 0)
+			(at -620.6 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3359,7 +3863,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at -867.92 125.73 0)
+			(at -720.6 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3385,7 +3889,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:885012208009")
-		(at 90.17 116.84 270)
+		(at 237.49 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3394,7 +3898,7 @@
 		(fields_autoplaced yes)
 		(uuid "07f2a6a7-c910-4a9f-99d9-3a6e10aee44d")
 		(property "Reference" "C5"
-			(at 93.98 123.1899 90)
+			(at 241.3 104.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3403,7 +3907,7 @@
 			)
 		)
 		(property "Value" "885012208009"
-			(at 93.98 124.4599 90)
+			(at 241.3 105.4099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3413,7 +3917,7 @@
 			)
 		)
 		(property "Footprint" "CAPC3216X90N"
-			(at -6.02 125.73 0)
+			(at 141.3 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3423,7 +3927,7 @@
 			)
 		)
 		(property "Datasheet" "https://katalog.we-online.com/pbs/datasheet/885012208009.pdf"
-			(at -106.02 125.73 0)
+			(at 41.3 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3433,7 +3937,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Chip Capacitor WCAP-CSGP Series 1206 100000pF X7R1206104K010DFCT10000"
-			(at 90.17 116.84 0)
+			(at 237.49 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3442,7 +3946,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at -306.02 125.73 0)
+			(at -158.7 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3452,7 +3956,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at -406.02 125.73 0)
+			(at -258.7 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3462,7 +3966,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "885012208009"
-			(at -506.02 125.73 0)
+			(at -358.7 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3472,7 +3976,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-885012208009"
-			(at -606.02 125.73 0)
+			(at -458.7 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3482,7 +3986,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/885012208009/?qs=0KOYDY2FL28pBXnWSpSHJw%3D%3D"
-			(at -706.02 125.73 0)
+			(at -558.7 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3492,7 +3996,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at -806.02 125.73 0)
+			(at -658.7 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3502,7 +4006,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at -906.02 125.73 0)
+			(at -758.7 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3528,7 +4032,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:885012208009")
-		(at 90.17 162.56 270)
+		(at 237.49 135.89 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3537,7 +4041,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e616729-4113-4d76-9cb0-9be3d6abad08")
 		(property "Reference" "C13"
-			(at 93.98 168.9099 90)
+			(at 241.3 142.2399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3546,7 +4050,7 @@
 			)
 		)
 		(property "Value" "885012208009"
-			(at 93.98 170.1799 90)
+			(at 241.3 143.5099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3556,7 +4060,7 @@
 			)
 		)
 		(property "Footprint" "CAPC3216X90N"
-			(at -6.02 171.45 0)
+			(at 141.3 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3566,7 +4070,7 @@
 			)
 		)
 		(property "Datasheet" "https://katalog.we-online.com/pbs/datasheet/885012208009.pdf"
-			(at -106.02 171.45 0)
+			(at 41.3 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3576,7 +4080,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Chip Capacitor WCAP-CSGP Series 1206 100000pF X7R1206104K010DFCT10000"
-			(at 90.17 162.56 0)
+			(at 237.49 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3585,7 +4089,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at -306.02 171.45 0)
+			(at -158.7 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3595,7 +4099,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at -406.02 171.45 0)
+			(at -258.7 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3605,7 +4109,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "885012208009"
-			(at -506.02 171.45 0)
+			(at -358.7 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3615,7 +4119,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-885012208009"
-			(at -606.02 171.45 0)
+			(at -458.7 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3625,7 +4129,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/885012208009/?qs=0KOYDY2FL28pBXnWSpSHJw%3D%3D"
-			(at -706.02 171.45 0)
+			(at -558.7 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3635,7 +4139,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at -806.02 171.45 0)
+			(at -658.7 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3645,7 +4149,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at -906.02 171.45 0)
+			(at -758.7 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4035,7 +4539,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:885012208009")
-		(at 115.57 162.56 270)
+		(at 262.89 135.89 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4044,7 +4548,7 @@
 		(fields_autoplaced yes)
 		(uuid "29d334b6-78cd-4762-9a41-693bc4de6a2e")
 		(property "Reference" "C15"
-			(at 119.38 168.9099 90)
+			(at 266.7 142.2399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4053,7 +4557,7 @@
 			)
 		)
 		(property "Value" "885012208009"
-			(at 119.38 170.1799 90)
+			(at 266.7 143.5099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4063,7 +4567,7 @@
 			)
 		)
 		(property "Footprint" "CAPC3216X90N"
-			(at 19.38 171.45 0)
+			(at 166.7 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4073,7 +4577,7 @@
 			)
 		)
 		(property "Datasheet" "https://katalog.we-online.com/pbs/datasheet/885012208009.pdf"
-			(at -80.62 171.45 0)
+			(at 66.7 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4083,7 +4587,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Chip Capacitor WCAP-CSGP Series 1206 100000pF X7R1206104K010DFCT10000"
-			(at 115.57 162.56 0)
+			(at 262.89 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4092,7 +4596,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at -280.62 171.45 0)
+			(at -133.3 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4102,7 +4606,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at -380.62 171.45 0)
+			(at -233.3 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4112,7 +4616,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "885012208009"
-			(at -480.62 171.45 0)
+			(at -333.3 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4122,7 +4626,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-885012208009"
-			(at -580.62 171.45 0)
+			(at -433.3 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4132,7 +4636,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/885012208009/?qs=0KOYDY2FL28pBXnWSpSHJw%3D%3D"
-			(at -680.62 171.45 0)
+			(at -533.3 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4142,7 +4646,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at -780.62 171.45 0)
+			(at -633.3 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4152,7 +4656,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at -880.62 171.45 0)
+			(at -733.3 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4178,7 +4682,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:885012208009")
-		(at 39.37 116.84 270)
+		(at 186.69 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4187,7 +4691,7 @@
 		(fields_autoplaced yes)
 		(uuid "2bed18d2-3387-4a0f-a2dc-181ce1090977")
 		(property "Reference" "C1"
-			(at 43.18 123.1899 90)
+			(at 190.5 104.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4196,7 +4700,7 @@
 			)
 		)
 		(property "Value" "885012208009"
-			(at 43.18 124.4599 90)
+			(at 190.5 105.4099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4206,7 +4710,7 @@
 			)
 		)
 		(property "Footprint" "CAPC3216X90N"
-			(at -56.82 125.73 0)
+			(at 90.5 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4216,7 +4720,7 @@
 			)
 		)
 		(property "Datasheet" "https://katalog.we-online.com/pbs/datasheet/885012208009.pdf"
-			(at -156.82 125.73 0)
+			(at -9.5 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4226,7 +4730,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Chip Capacitor WCAP-CSGP Series 1206 100000pF X7R1206104K010DFCT10000"
-			(at 39.37 116.84 0)
+			(at 186.69 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4235,7 +4739,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at -356.82 125.73 0)
+			(at -209.5 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4245,7 +4749,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at -456.82 125.73 0)
+			(at -309.5 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4255,7 +4759,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "885012208009"
-			(at -556.82 125.73 0)
+			(at -409.5 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4265,7 +4769,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-885012208009"
-			(at -656.82 125.73 0)
+			(at -509.5 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4275,7 +4779,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/885012208009/?qs=0KOYDY2FL28pBXnWSpSHJw%3D%3D"
-			(at -756.82 125.73 0)
+			(at -609.5 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4285,7 +4789,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at -856.82 125.73 0)
+			(at -709.5 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4295,7 +4799,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at -956.82 125.73 0)
+			(at -809.5 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4321,7 +4825,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:885012208009")
-		(at 102.87 162.56 270)
+		(at 250.19 135.89 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4330,7 +4834,7 @@
 		(fields_autoplaced yes)
 		(uuid "54a31568-c7b7-4cf6-939f-967af9460e92")
 		(property "Reference" "C14"
-			(at 106.68 168.9099 90)
+			(at 254 142.2399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4339,7 +4843,7 @@
 			)
 		)
 		(property "Value" "885012208009"
-			(at 106.68 170.1799 90)
+			(at 254 143.5099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4349,7 +4853,7 @@
 			)
 		)
 		(property "Footprint" "CAPC3216X90N"
-			(at 6.68 171.45 0)
+			(at 154 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4359,7 +4863,7 @@
 			)
 		)
 		(property "Datasheet" "https://katalog.we-online.com/pbs/datasheet/885012208009.pdf"
-			(at -93.32 171.45 0)
+			(at 54 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4369,7 +4873,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Chip Capacitor WCAP-CSGP Series 1206 100000pF X7R1206104K010DFCT10000"
-			(at 102.87 162.56 0)
+			(at 250.19 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4378,7 +4882,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at -293.32 171.45 0)
+			(at -146 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4388,7 +4892,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at -393.32 171.45 0)
+			(at -246 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4398,7 +4902,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "885012208009"
-			(at -493.32 171.45 0)
+			(at -346 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4408,7 +4912,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-885012208009"
-			(at -593.32 171.45 0)
+			(at -446 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4418,7 +4922,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/885012208009/?qs=0KOYDY2FL28pBXnWSpSHJw%3D%3D"
-			(at -693.32 171.45 0)
+			(at -546 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4428,7 +4932,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at -793.32 171.45 0)
+			(at -646 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4438,7 +4942,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at -893.32 171.45 0)
+			(at -746 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4464,7 +4968,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:885012208009")
-		(at 77.47 162.56 270)
+		(at 224.79 135.89 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4473,7 +4977,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e3ca2bb-e5fa-4f28-96c2-a4fab621c8fb")
 		(property "Reference" "C12"
-			(at 81.28 168.9099 90)
+			(at 228.6 142.2399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4482,7 +4986,7 @@
 			)
 		)
 		(property "Value" "885012208009"
-			(at 81.28 170.1799 90)
+			(at 228.6 143.5099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4492,7 +4996,7 @@
 			)
 		)
 		(property "Footprint" "CAPC3216X90N"
-			(at -18.72 171.45 0)
+			(at 128.6 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4502,7 +5006,7 @@
 			)
 		)
 		(property "Datasheet" "https://katalog.we-online.com/pbs/datasheet/885012208009.pdf"
-			(at -118.72 171.45 0)
+			(at 28.6 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4512,7 +5016,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Chip Capacitor WCAP-CSGP Series 1206 100000pF X7R1206104K010DFCT10000"
-			(at 77.47 162.56 0)
+			(at 224.79 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4521,7 +5025,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at -318.72 171.45 0)
+			(at -171.4 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4531,7 +5035,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at -418.72 171.45 0)
+			(at -271.4 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4541,7 +5045,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "885012208009"
-			(at -518.72 171.45 0)
+			(at -371.4 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4551,7 +5055,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-885012208009"
-			(at -618.72 171.45 0)
+			(at -471.4 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4561,7 +5065,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/885012208009/?qs=0KOYDY2FL28pBXnWSpSHJw%3D%3D"
-			(at -718.72 171.45 0)
+			(at -571.4 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4571,7 +5075,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at -818.72 171.45 0)
+			(at -671.4 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4581,7 +5085,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at -918.72 171.45 0)
+			(at -771.4 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4607,7 +5111,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:885012208009")
-		(at 77.47 116.84 270)
+		(at 224.79 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4616,7 +5120,7 @@
 		(fields_autoplaced yes)
 		(uuid "62dd1d41-1245-4498-9aa5-f30cf935743d")
 		(property "Reference" "C4"
-			(at 81.28 123.1899 90)
+			(at 228.6 104.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4625,7 +5129,7 @@
 			)
 		)
 		(property "Value" "885012208009"
-			(at 81.28 124.4599 90)
+			(at 228.6 105.4099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4635,7 +5139,7 @@
 			)
 		)
 		(property "Footprint" "CAPC3216X90N"
-			(at -18.72 125.73 0)
+			(at 128.6 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4645,7 +5149,7 @@
 			)
 		)
 		(property "Datasheet" "https://katalog.we-online.com/pbs/datasheet/885012208009.pdf"
-			(at -118.72 125.73 0)
+			(at 28.6 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4655,7 +5159,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Chip Capacitor WCAP-CSGP Series 1206 100000pF X7R1206104K010DFCT10000"
-			(at 77.47 116.84 0)
+			(at 224.79 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4664,7 +5168,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at -318.72 125.73 0)
+			(at -171.4 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4674,7 +5178,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at -418.72 125.73 0)
+			(at -271.4 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4684,7 +5188,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "885012208009"
-			(at -518.72 125.73 0)
+			(at -371.4 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4694,7 +5198,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-885012208009"
-			(at -618.72 125.73 0)
+			(at -471.4 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4704,7 +5208,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/885012208009/?qs=0KOYDY2FL28pBXnWSpSHJw%3D%3D"
-			(at -718.72 125.73 0)
+			(at -571.4 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4714,7 +5218,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at -818.72 125.73 0)
+			(at -671.4 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4724,7 +5228,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at -918.72 125.73 0)
+			(at -771.4 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4750,7 +5254,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:885012208009")
-		(at 39.37 162.56 270)
+		(at 186.69 135.89 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4759,7 +5263,7 @@
 		(fields_autoplaced yes)
 		(uuid "698090e7-c492-458c-b5da-a97d91f516e9")
 		(property "Reference" "C9"
-			(at 43.18 168.9099 90)
+			(at 190.5 142.2399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4768,7 +5272,7 @@
 			)
 		)
 		(property "Value" "885012208009"
-			(at 43.18 170.1799 90)
+			(at 190.5 143.5099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4778,7 +5282,7 @@
 			)
 		)
 		(property "Footprint" "CAPC3216X90N"
-			(at -56.82 171.45 0)
+			(at 90.5 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4788,7 +5292,7 @@
 			)
 		)
 		(property "Datasheet" "https://katalog.we-online.com/pbs/datasheet/885012208009.pdf"
-			(at -156.82 171.45 0)
+			(at -9.5 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4798,7 +5302,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Chip Capacitor WCAP-CSGP Series 1206 100000pF X7R1206104K010DFCT10000"
-			(at 39.37 162.56 0)
+			(at 186.69 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4807,7 +5311,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at -356.82 171.45 0)
+			(at -209.5 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4817,7 +5321,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at -456.82 171.45 0)
+			(at -309.5 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4827,7 +5331,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "885012208009"
-			(at -556.82 171.45 0)
+			(at -409.5 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4837,7 +5341,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-885012208009"
-			(at -656.82 171.45 0)
+			(at -509.5 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4847,7 +5351,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/885012208009/?qs=0KOYDY2FL28pBXnWSpSHJw%3D%3D"
-			(at -756.82 171.45 0)
+			(at -609.5 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4857,7 +5361,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at -856.82 171.45 0)
+			(at -709.5 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4867,7 +5371,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at -956.82 171.45 0)
+			(at -809.5 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4893,7 +5397,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 137.16 0)
+		(at 186.69 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4902,7 +5406,7 @@
 		(fields_autoplaced yes)
 		(uuid "92223ab0-e3ea-4cdf-9aaa-caf3d3b65e52")
 		(property "Reference" "#PWR03"
-			(at 39.37 143.51 0)
+			(at 186.69 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4911,7 +5415,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 142.24 0)
+			(at 186.69 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4919,7 +5423,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 137.16 0)
+			(at 186.69 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4928,7 +5432,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 137.16 0)
+			(at 186.69 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4937,7 +5441,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 137.16 0)
+			(at 186.69 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4959,7 +5463,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:885012208009")
-		(at 52.07 116.84 270)
+		(at 199.39 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4968,7 +5472,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f9a48df-a586-40bf-883c-7c24daa61648")
 		(property "Reference" "C2"
-			(at 55.88 123.1899 90)
+			(at 203.2 104.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4977,7 +5481,7 @@
 			)
 		)
 		(property "Value" "885012208009"
-			(at 55.88 124.4599 90)
+			(at 203.2 105.4099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4987,7 +5491,7 @@
 			)
 		)
 		(property "Footprint" "CAPC3216X90N"
-			(at -44.12 125.73 0)
+			(at 103.2 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4997,7 +5501,7 @@
 			)
 		)
 		(property "Datasheet" "https://katalog.we-online.com/pbs/datasheet/885012208009.pdf"
-			(at -144.12 125.73 0)
+			(at 3.2 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5007,7 +5511,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Chip Capacitor WCAP-CSGP Series 1206 100000pF X7R1206104K010DFCT10000"
-			(at 52.07 116.84 0)
+			(at 199.39 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5016,7 +5520,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at -344.12 125.73 0)
+			(at -196.8 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5026,7 +5530,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at -444.12 125.73 0)
+			(at -296.8 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5036,7 +5540,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "885012208009"
-			(at -544.12 125.73 0)
+			(at -396.8 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5046,7 +5550,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-885012208009"
-			(at -644.12 125.73 0)
+			(at -496.8 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5056,7 +5560,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/885012208009/?qs=0KOYDY2FL28pBXnWSpSHJw%3D%3D"
-			(at -744.12 125.73 0)
+			(at -596.8 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5066,7 +5570,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at -844.12 125.73 0)
+			(at -696.8 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5076,7 +5580,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at -944.12 125.73 0)
+			(at -796.8 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5102,7 +5606,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 182.88 0)
+		(at 186.69 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5111,7 +5615,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f9b3d90-379d-458b-9c3b-69fb6fb6fd74")
 		(property "Reference" "#PWR04"
-			(at 39.37 189.23 0)
+			(at 186.69 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5120,7 +5624,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 187.96 0)
+			(at 186.69 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5128,7 +5632,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 182.88 0)
+			(at 186.69 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5137,7 +5641,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 182.88 0)
+			(at 186.69 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5146,7 +5650,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 182.88 0)
+			(at 186.69 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5168,7 +5672,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:885012208009")
-		(at 64.77 162.56 270)
+		(at 212.09 135.89 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5177,7 +5681,7 @@
 		(fields_autoplaced yes)
 		(uuid "a020cceb-47ba-4421-b33b-e46871c4d3c7")
 		(property "Reference" "C11"
-			(at 68.58 168.9099 90)
+			(at 215.9 142.2399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5186,7 +5690,7 @@
 			)
 		)
 		(property "Value" "885012208009"
-			(at 68.58 170.1799 90)
+			(at 215.9 143.5099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5196,7 +5700,7 @@
 			)
 		)
 		(property "Footprint" "CAPC3216X90N"
-			(at -31.42 171.45 0)
+			(at 115.9 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5206,7 +5710,7 @@
 			)
 		)
 		(property "Datasheet" "https://katalog.we-online.com/pbs/datasheet/885012208009.pdf"
-			(at -131.42 171.45 0)
+			(at 15.9 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5216,7 +5720,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Chip Capacitor WCAP-CSGP Series 1206 100000pF X7R1206104K010DFCT10000"
-			(at 64.77 162.56 0)
+			(at 212.09 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5225,7 +5729,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at -331.42 171.45 0)
+			(at -184.1 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5235,7 +5739,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at -431.42 171.45 0)
+			(at -284.1 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5245,7 +5749,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "885012208009"
-			(at -531.42 171.45 0)
+			(at -384.1 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5255,7 +5759,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-885012208009"
-			(at -631.42 171.45 0)
+			(at -484.1 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5265,7 +5769,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/885012208009/?qs=0KOYDY2FL28pBXnWSpSHJw%3D%3D"
-			(at -731.42 171.45 0)
+			(at -584.1 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5275,7 +5779,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at -831.42 171.45 0)
+			(at -684.1 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5285,7 +5789,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at -931.42 171.45 0)
+			(at -784.1 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5311,7 +5815,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:885012208009")
-		(at 128.27 162.56 270)
+		(at 275.59 135.89 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5320,7 +5824,7 @@
 		(fields_autoplaced yes)
 		(uuid "a4ab002b-7548-44ea-a796-2222a98b2e01")
 		(property "Reference" "C16"
-			(at 132.08 168.9099 90)
+			(at 279.4 142.2399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5329,7 +5833,7 @@
 			)
 		)
 		(property "Value" "885012208009"
-			(at 132.08 170.1799 90)
+			(at 279.4 143.5099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5339,7 +5843,7 @@
 			)
 		)
 		(property "Footprint" "CAPC3216X90N"
-			(at 32.08 171.45 0)
+			(at 179.4 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5349,7 +5853,7 @@
 			)
 		)
 		(property "Datasheet" "https://katalog.we-online.com/pbs/datasheet/885012208009.pdf"
-			(at -67.92 171.45 0)
+			(at 79.4 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5359,7 +5863,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Chip Capacitor WCAP-CSGP Series 1206 100000pF X7R1206104K010DFCT10000"
-			(at 128.27 162.56 0)
+			(at 275.59 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5368,7 +5872,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at -267.92 171.45 0)
+			(at -120.6 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5378,7 +5882,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at -367.92 171.45 0)
+			(at -220.6 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5388,7 +5892,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "885012208009"
-			(at -467.92 171.45 0)
+			(at -320.6 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5398,7 +5902,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-885012208009"
-			(at -567.92 171.45 0)
+			(at -420.6 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5408,7 +5912,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/885012208009/?qs=0KOYDY2FL28pBXnWSpSHJw%3D%3D"
-			(at -667.92 171.45 0)
+			(at -520.6 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5418,7 +5922,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at -767.92 171.45 0)
+			(at -620.6 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5428,7 +5932,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at -867.92 171.45 0)
+			(at -720.6 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5454,7 +5958,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:885012208009")
-		(at 115.57 116.84 270)
+		(at 262.89 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5463,7 +5967,7 @@
 		(fields_autoplaced yes)
 		(uuid "b31c4156-88ca-4f83-b605-0c8631baa6fd")
 		(property "Reference" "C7"
-			(at 119.38 123.1899 90)
+			(at 266.7 104.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5472,7 +5976,7 @@
 			)
 		)
 		(property "Value" "885012208009"
-			(at 119.38 124.4599 90)
+			(at 266.7 105.4099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5482,7 +5986,7 @@
 			)
 		)
 		(property "Footprint" "CAPC3216X90N"
-			(at 19.38 125.73 0)
+			(at 166.7 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5492,7 +5996,7 @@
 			)
 		)
 		(property "Datasheet" "https://katalog.we-online.com/pbs/datasheet/885012208009.pdf"
-			(at -80.62 125.73 0)
+			(at 66.7 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5502,7 +6006,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Chip Capacitor WCAP-CSGP Series 1206 100000pF X7R1206104K010DFCT10000"
-			(at 115.57 116.84 0)
+			(at 262.89 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5511,7 +6015,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at -280.62 125.73 0)
+			(at -133.3 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5521,7 +6025,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at -380.62 125.73 0)
+			(at -233.3 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5531,7 +6035,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "885012208009"
-			(at -480.62 125.73 0)
+			(at -333.3 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5541,7 +6045,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-885012208009"
-			(at -580.62 125.73 0)
+			(at -433.3 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5551,7 +6055,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/885012208009/?qs=0KOYDY2FL28pBXnWSpSHJw%3D%3D"
-			(at -680.62 125.73 0)
+			(at -533.3 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5561,7 +6065,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at -780.62 125.73 0)
+			(at -633.3 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5571,7 +6075,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at -880.62 125.73 0)
+			(at -733.3 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5597,7 +6101,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:885012208009")
-		(at 102.87 116.84 270)
+		(at 250.19 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5606,7 +6110,7 @@
 		(fields_autoplaced yes)
 		(uuid "b732e124-4da0-47d6-ad1a-78396ebcadb3")
 		(property "Reference" "C6"
-			(at 106.68 123.1899 90)
+			(at 254 104.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5615,7 +6119,7 @@
 			)
 		)
 		(property "Value" "885012208009"
-			(at 106.68 124.4599 90)
+			(at 254 105.4099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5625,7 +6129,7 @@
 			)
 		)
 		(property "Footprint" "CAPC3216X90N"
-			(at 6.68 125.73 0)
+			(at 154 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5635,7 +6139,7 @@
 			)
 		)
 		(property "Datasheet" "https://katalog.we-online.com/pbs/datasheet/885012208009.pdf"
-			(at -93.32 125.73 0)
+			(at 54 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5645,7 +6149,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Chip Capacitor WCAP-CSGP Series 1206 100000pF X7R1206104K010DFCT10000"
-			(at 102.87 116.84 0)
+			(at 250.19 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5654,7 +6158,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at -293.32 125.73 0)
+			(at -146 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5664,7 +6168,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at -393.32 125.73 0)
+			(at -246 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5674,7 +6178,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "885012208009"
-			(at -493.32 125.73 0)
+			(at -346 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5684,7 +6188,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-885012208009"
-			(at -593.32 125.73 0)
+			(at -446 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5694,7 +6198,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/885012208009/?qs=0KOYDY2FL28pBXnWSpSHJw%3D%3D"
-			(at -693.32 125.73 0)
+			(at -546 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5704,7 +6208,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at -793.32 125.73 0)
+			(at -646 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5714,7 +6218,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at -893.32 125.73 0)
+			(at -746 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5740,7 +6244,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:885012208009")
-		(at 52.07 162.56 270)
+		(at 199.39 135.89 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5749,7 +6253,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd50dcbd-33a4-482b-a9a8-bb6651ffb297")
 		(property "Reference" "C10"
-			(at 55.88 168.9099 90)
+			(at 203.2 142.2399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5758,7 +6262,7 @@
 			)
 		)
 		(property "Value" "885012208009"
-			(at 55.88 170.1799 90)
+			(at 203.2 143.5099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5768,7 +6272,7 @@
 			)
 		)
 		(property "Footprint" "CAPC3216X90N"
-			(at -44.12 171.45 0)
+			(at 103.2 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5778,7 +6282,7 @@
 			)
 		)
 		(property "Datasheet" "https://katalog.we-online.com/pbs/datasheet/885012208009.pdf"
-			(at -144.12 171.45 0)
+			(at 3.2 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5788,7 +6292,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Chip Capacitor WCAP-CSGP Series 1206 100000pF X7R1206104K010DFCT10000"
-			(at 52.07 162.56 0)
+			(at 199.39 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5797,7 +6301,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at -344.12 171.45 0)
+			(at -196.8 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5807,7 +6311,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at -444.12 171.45 0)
+			(at -296.8 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5817,7 +6321,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "885012208009"
-			(at -544.12 171.45 0)
+			(at -396.8 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5827,7 +6331,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-885012208009"
-			(at -644.12 171.45 0)
+			(at -496.8 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5837,7 +6341,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/885012208009/?qs=0KOYDY2FL28pBXnWSpSHJw%3D%3D"
-			(at -744.12 171.45 0)
+			(at -596.8 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5847,7 +6351,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at -844.12 171.45 0)
+			(at -696.8 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5857,7 +6361,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at -944.12 171.45 0)
+			(at -796.8 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6247,7 +6751,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:885012208009")
-		(at 64.77 116.84 270)
+		(at 212.09 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6256,7 +6760,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3ecefc9-7284-4f58-9e07-b5c17e94cb83")
 		(property "Reference" "C3"
-			(at 68.58 123.1899 90)
+			(at 215.9 104.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6265,7 +6769,7 @@
 			)
 		)
 		(property "Value" "885012208009"
-			(at 68.58 124.4599 90)
+			(at 215.9 105.4099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6275,7 +6779,7 @@
 			)
 		)
 		(property "Footprint" "CAPC3216X90N"
-			(at -31.42 125.73 0)
+			(at 115.9 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6285,7 +6789,7 @@
 			)
 		)
 		(property "Datasheet" "https://katalog.we-online.com/pbs/datasheet/885012208009.pdf"
-			(at -131.42 125.73 0)
+			(at 15.9 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6295,7 +6799,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Chip Capacitor WCAP-CSGP Series 1206 100000pF X7R1206104K010DFCT10000"
-			(at 64.77 116.84 0)
+			(at 212.09 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6304,7 +6808,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at -331.42 125.73 0)
+			(at -184.1 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6314,7 +6818,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at -431.42 125.73 0)
+			(at -284.1 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6324,7 +6828,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "885012208009"
-			(at -531.42 125.73 0)
+			(at -384.1 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6334,7 +6838,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-885012208009"
-			(at -631.42 125.73 0)
+			(at -484.1 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6344,7 +6848,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/885012208009/?qs=0KOYDY2FL28pBXnWSpSHJw%3D%3D"
-			(at -731.42 125.73 0)
+			(at -584.1 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6354,7 +6858,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at -831.42 125.73 0)
+			(at -684.1 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6364,7 +6868,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at -931.42 125.73 0)
+			(at -784.1 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6390,7 +6894,7 @@
 	)
 	(sheet
 		(at 85.09 27.94)
-		(size 29.21 55.88)
+		(size 29.21 110.49)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6414,7 +6918,7 @@
 			)
 		)
 		(property "Sheetfile" "encoder.kicad_sch"
-			(at 85.09 84.4046 0)
+			(at 85.09 139.0146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6735,6 +7239,246 @@
 		(pin "BOut1" output
 			(at 114.3 60.96 0)
 			(uuid "4d88344b-e471-4e47-86cc-cc5fc3609724")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E1_LED_ORANGE" input
+			(at 85.09 85.09 180)
+			(uuid "563561eb-bc34-4ee2-b145-7dae8845d10b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E1_SW" output
+			(at 114.3 85.09 0)
+			(uuid "696dcb90-c1a7-4049-8649-dee6027d7a57")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E1_LED_BLUE" input
+			(at 85.09 87.63 180)
+			(uuid "9311d4a3-98de-44ab-89ce-3113e18f051a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E2_LED_ORANGE" input
+			(at 85.09 91.44 180)
+			(uuid "d976d204-162b-428a-8c9b-c2745638d0da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E2_LED_BLUE" input
+			(at 85.09 93.98 180)
+			(uuid "7f3f8233-1e5c-4e37-92f2-4580c1753aa3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E2_SW" output
+			(at 114.3 91.44 0)
+			(uuid "1645f5b8-ff5f-4084-a7fa-72c2cd4a3e0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E3_LED_BLUE" input
+			(at 85.09 97.79 180)
+			(uuid "5d0cfbfc-5918-401f-be60-1fe3c448f10d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E3_LED_ORANGE" input
+			(at 85.09 100.33 180)
+			(uuid "34c82ca7-dd9b-4e83-ba42-9a79e8490ebc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E3_SW" output
+			(at 114.3 97.79 0)
+			(uuid "722e0b90-6263-4bf0-a952-277731d5426e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E4_LED_ORANGE" input
+			(at 85.09 104.14 180)
+			(uuid "7b220b18-a5c0-4f17-8beb-bb45b9884760")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E4_LED_BLUE" input
+			(at 85.09 106.68 180)
+			(uuid "c810d3a9-ed67-4956-a79e-a91cd1960764")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E4_SW" output
+			(at 114.3 104.14 0)
+			(uuid "8af295ea-761f-4aaf-a6aa-059ce05afb25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E5_SW" output
+			(at 114.3 111.76 0)
+			(uuid "7995fa69-3962-4e04-8d26-17278b74ee51")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E5_LED_ORANGE" input
+			(at 85.09 111.76 180)
+			(uuid "eafd56fd-88e1-4c4e-a0c7-57039a5c8ac9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E5_LED_BLUE" input
+			(at 85.09 114.3 180)
+			(uuid "5d17f514-d3d3-44d2-94b5-e0d79ac09163")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E6_LED_BLUE" input
+			(at 85.09 120.65 180)
+			(uuid "47635220-918d-4252-95bf-5689cf88648c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E6_LED_ORANGE" input
+			(at 85.09 118.11 180)
+			(uuid "699b6b0f-ec25-45ea-952e-5ced8e9644fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E6_SW" output
+			(at 114.3 118.11 0)
+			(uuid "2f6a353a-294f-4526-9425-cf8bd104bd52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E7_LED_ORANGE" input
+			(at 85.09 124.46 180)
+			(uuid "2fcddee7-2c07-4590-b073-220fcb947015")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E7_LED_BLUE" input
+			(at 85.09 127 180)
+			(uuid "e764ce37-9130-4151-8fcb-ceec00a252bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E7_SW" output
+			(at 114.3 124.46 0)
+			(uuid "b10a5634-36e2-462e-a69e-9c37c5e37bb1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E8_LED_ORANGE" input
+			(at 85.09 130.81 180)
+			(uuid "353a3dac-dad0-4fd9-b661-a7e2817e2ac4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E8_LED_BLUE" input
+			(at 85.09 133.35 180)
+			(uuid "640acba6-9188-4409-a1d0-ec4dafd67d5f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E8_SW" output
+			(at 114.3 130.81 0)
+			(uuid "d8d30b5b-6641-46da-a0ed-74b52748466c")
 			(effects
 				(font
 					(size 1.27 1.27)

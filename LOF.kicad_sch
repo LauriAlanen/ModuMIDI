@@ -1209,8 +1209,8 @@
 		)
 	)
 	(sheet
-		(at 88.9 40.64)
-		(size 60.96 36.83)
+		(at 62.23 22.86)
+		(size 60.96 77.47)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1225,7 +1225,7 @@
 		)
 		(uuid "daefe003-d8cf-4691-bd0f-767a0f461cd3")
 		(property "Sheetname" "RC Filtered Encoders"
-			(at 88.9 39.9284 0)
+			(at 62.23 22.1484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1234,12 +1234,422 @@
 			)
 		)
 		(property "Sheetfile" "rc-encoders.kicad_sch"
-			(at 88.9 78.0546 0)
+			(at 62.23 100.9146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "5V" input
+			(at 62.23 29.21 180)
+			(uuid "eefe5952-0179-4ca8-9d28-494996e89d4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AOut1" output
+			(at 123.19 26.67 0)
+			(uuid "6ef53a57-924e-4436-8f86-03bcf51ac425")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AOut3" output
+			(at 123.19 31.75 0)
+			(uuid "f9a3eba2-f773-4aee-9b5a-9a24af9cb0db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AOut5" output
+			(at 123.19 36.83 0)
+			(uuid "1405100d-82a5-412d-a872-6d767ea6c28f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AOut8" output
+			(at 123.19 44.45 0)
+			(uuid "0af1fa8e-09a0-4237-919c-0da0a5972a01")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AOut6" output
+			(at 123.19 39.37 0)
+			(uuid "78b39cfd-e2bd-4b4a-acfb-56e6b6a84e27")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AOut7" output
+			(at 123.19 41.91 0)
+			(uuid "f2be6887-dd0b-4056-9178-53ef2dc9c6ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AOut4" output
+			(at 123.19 34.29 0)
+			(uuid "71da67b4-ef7e-4f45-9345-1164e5846d38")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AOut2" output
+			(at 123.19 29.21 0)
+			(uuid "128293d2-97d7-4cdd-8e39-de7321dd7622")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BOut4" output
+			(at 123.19 59.69 0)
+			(uuid "bb190af3-c812-41f4-8a97-7c8eee09f1a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BOut2" output
+			(at 123.19 54.61 0)
+			(uuid "4830cb99-c9b0-490c-b1d3-7d1c46b48c51")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BOut6" output
+			(at 123.19 64.77 0)
+			(uuid "21a264a0-126b-41c2-a99f-562ac6228346")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BOut5" output
+			(at 123.19 62.23 0)
+			(uuid "a4a4896b-9eda-4f9b-9a72-b432b4d5a6d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BOut7" output
+			(at 123.19 67.31 0)
+			(uuid "f781a766-5814-4e79-bc5d-dc646428d99e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BOut8" output
+			(at 123.19 69.85 0)
+			(uuid "aee79452-5f2d-47da-9137-ec5f2857326c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BOut3" output
+			(at 123.19 57.15 0)
+			(uuid "3e00aa46-a7e4-42e0-8594-9c2bd3ceddc2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BOut1" output
+			(at 123.19 52.07 0)
+			(uuid "0da2f73d-6aad-497c-b789-444b880c399a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E1_SW" output
+			(at 123.19 77.47 0)
+			(uuid "4e98789c-c34b-48d1-98fb-f9425008492c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E1_LED_ORANGE" input
+			(at 62.23 34.29 180)
+			(uuid "d40c1fa5-882c-4ffc-933c-176a8252e59e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E1_LED_BLUE" input
+			(at 62.23 36.83 180)
+			(uuid "43d31862-4cdc-4ffa-80ad-124147cf4257")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E2_LED_BLUE" input
+			(at 62.23 43.18 180)
+			(uuid "03bd6a1e-f7fb-40c3-9cd1-59fbf2444143")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E2_LED_ORANGE" input
+			(at 62.23 40.64 180)
+			(uuid "85f00111-e23e-49b8-b1e1-26fae18efc12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E2_SW" output
+			(at 123.19 80.01 0)
+			(uuid "63f8fc76-e378-413c-a9c4-ec7252c577d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E3_LED_ORANGE" input
+			(at 62.23 46.99 180)
+			(uuid "4612b14b-82f5-4305-b3b6-e9012985ec6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E3_LED_BLUE" input
+			(at 62.23 49.53 180)
+			(uuid "55d5bf77-03cf-4ab7-b386-1d52b71ccdab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E3_SW" output
+			(at 123.19 82.55 0)
+			(uuid "7bcc24e9-59b7-4b87-b093-c6e8b3eb743d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E4_LED_BLUE" input
+			(at 62.23 55.88 180)
+			(uuid "fef3d9e2-8bac-480e-bbd1-f687a96b2d3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E4_LED_ORANGE" input
+			(at 62.23 53.34 180)
+			(uuid "4082b1cb-bf6c-4b38-8621-b6e757ced466")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E4_SW" output
+			(at 123.19 85.09 0)
+			(uuid "565a281c-2031-4f1e-a257-998868fca878")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E5_LED_ORANGE" input
+			(at 62.23 59.69 180)
+			(uuid "a492a733-bff4-421d-acac-9591eb6aee38")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E5_LED_BLUE" input
+			(at 62.23 62.23 180)
+			(uuid "84ebb598-d3c7-4204-811e-15b950a610e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E5_SW" output
+			(at 123.19 87.63 0)
+			(uuid "e84a574b-563b-4e70-a358-2996bd0cc9dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E6_LED_BLUE" input
+			(at 62.23 66.04 180)
+			(uuid "8c5c7259-4717-474b-a2b0-9cae9067a27d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E6_LED_ORANGE" input
+			(at 62.23 68.58 180)
+			(uuid "6dcd9f07-ee2c-46a9-821d-0bc57fc196b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E6_SW" output
+			(at 123.19 90.17 0)
+			(uuid "99011bc2-28a0-4f51-9eb3-8f31245ca4c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E7_LED_BLUE" input
+			(at 62.23 72.39 180)
+			(uuid "b149d5b4-3510-4931-a303-a8c9e0d8601e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E7_LED_ORANGE" input
+			(at 62.23 74.93 180)
+			(uuid "b3fe19de-cab1-4b34-ac8c-9f3cd79e76f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E7_SW" output
+			(at 123.19 92.71 0)
+			(uuid "7c910748-4fca-41ed-9e1b-8a999169e6bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E8_LED_ORANGE" input
+			(at 62.23 80.01 180)
+			(uuid "889e4821-0e05-45d3-9559-2c6a76ea557d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E8_LED_BLUE" input
+			(at 62.23 82.55 180)
+			(uuid "8a699167-78ee-47a5-8493-8ffb89c00c70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E8_SW" output
+			(at 123.19 95.25 0)
+			(uuid "1c893be1-ce28-409a-b0a2-176a73af336a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
