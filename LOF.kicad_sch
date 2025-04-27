@@ -1023,6 +1023,686 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SamacSys_Parts:2MS6T1B3M2QES"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "2MS6T1B3M2QES"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "2MS6T1B3M2QES"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.de/datasheet/2/979/Dailywell_01132020_2M_Series-1708785.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Toggle Switches SPST 2-4VDC , 1,000 M , OFF-ON 20 mmax , -40C to 85C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "23.63"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Dailywell"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "2MS6T1B3M2QES"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "118-2MS6T1B3M2QES"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Dailywell/2MS6T1B3M2QES?qs=B6kkDfuK7%2FCLnLIcqzvQEQ%3D%3D"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 16.51 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 16.51 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "2MS6T1B3M2QES_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin no_connect line
+					(at 0 0 0)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "NO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:PTL60-15O1-104B2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "VR"
+				(at 39.37 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "PTL60-15O1-104B2"
+				(at 39.37 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "PTL6015O1104B2"
+				(at 39.37 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.de/datasheet/2/54/PTL-777483.pdf"
+				(at 39.37 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Res Carbon Film POT 100K Ohm 20% 0.2W(1/5W) (75 X 9 X 22mm) Pin Thru-Hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "23"
+				(at 39.37 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "652-PTL60-15O1-104B2"
+				(at 39.37 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PTL60-15O1-104B2?qs=nAEW9fCjKd9VkMEfC2OFmQ%3D%3D"
+				(at 39.37 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Bourns"
+				(at 39.37 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "PTL60-15O1-104B2"
+				(at 39.37 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "PTL60-15O1-104B2_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 38.1 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "WIPER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "CCW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "DUMMY_TERMINAL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "E_(-)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 0 180)
+					(length 5.08)
+					(name "CW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 -2.54 180)
+					(length 5.08)
+					(name "B_(+)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:2MS6T1B3M2QES")
+		(at 106.68 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c3a68d1-cb43-4a54-92f4-b96f369e3e57")
+		(property "Reference" "S1"
+			(at 123.19 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2MS6T1B3M2QES"
+			(at 123.19 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "2MS6T1B3M2QES"
+			(at 123.19 228.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/979/Dailywell_01132020_2M_Series-1708785.pdf"
+			(at 123.19 328.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Toggle Switches SPST 2-4VDC , 1,000 M , OFF-ON 20 mmax , -40C to 85C"
+			(at 106.68 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "23.63"
+			(at 123.19 528.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Dailywell"
+			(at 123.19 628.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2MS6T1B3M2QES"
+			(at 123.19 728.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "118-2MS6T1B3M2QES"
+			(at 123.19 828.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Dailywell/2MS6T1B3M2QES?qs=B6kkDfuK7%2FCLnLIcqzvQEQ%3D%3D"
+			(at 123.19 928.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 123.19 1028.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 123.19 1128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "495309ae-95ee-419d-993e-c0d61e11f45a")
+		)
+		(pin "3"
+			(uuid "aa42e651-577d-48d8-9ef8-0852deb28112")
+		)
+		(instances
+			(project ""
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:2MS6T1B3M2QES")
+		(at 146.05 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "558088c3-3238-4b63-b32e-a337378241bc")
+		(property "Reference" "S3"
+			(at 162.56 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2MS6T1B3M2QES"
+			(at 162.56 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "2MS6T1B3M2QES"
+			(at 162.56 227 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/979/Dailywell_01132020_2M_Series-1708785.pdf"
+			(at 162.56 327 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Toggle Switches SPST 2-4VDC , 1,000 M , OFF-ON 20 mmax , -40C to 85C"
+			(at 146.05 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "23.63"
+			(at 162.56 527 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Dailywell"
+			(at 162.56 627 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2MS6T1B3M2QES"
+			(at 162.56 727 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "118-2MS6T1B3M2QES"
+			(at 162.56 827 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Dailywell/2MS6T1B3M2QES?qs=B6kkDfuK7%2FCLnLIcqzvQEQ%3D%3D"
+			(at 162.56 927 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 162.56 1027 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 162.56 1127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f42f712e-2793-40f6-be5c-a6b812308d7a")
+		)
+		(pin "3"
+			(uuid "fb497b91-f2ad-49ac-b7d3-dcf80c2d582f")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d"
+					(reference "S3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "MCU_Module:RaspberryPi_Pico")
@@ -1208,8 +1888,556 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "SamacSys_Parts:PTL60-15O1-104B2")
+		(at 50.8 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ffcef45-f95b-45d4-8d69-b8619a6940a5")
+		(property "Reference" "VR1"
+			(at 72.39 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTL60-15O1-104B2"
+			(at 72.39 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PTL6015O1104B2"
+			(at 90.17 227 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/54/PTL-777483.pdf"
+			(at 90.17 327 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Res Carbon Film POT 100K Ohm 20% 0.2W(1/5W) (75 X 9 X 22mm) Pin Thru-Hole"
+			(at 50.8 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "23"
+			(at 90.17 527 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-PTL60-15O1-104B2"
+			(at 90.17 627 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PTL60-15O1-104B2?qs=nAEW9fCjKd9VkMEfC2OFmQ%3D%3D"
+			(at 90.17 727 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 90.17 827 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PTL60-15O1-104B2"
+			(at 90.17 927 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4e66bc84-9382-4aeb-ae42-e9225e71b373")
+		)
+		(pin "B1"
+			(uuid "9fcff587-d168-45fe-a8e4-a3259a160ab4")
+		)
+		(pin "2"
+			(uuid "bdd1dc96-6c2b-479d-a633-627646da4427")
+		)
+		(pin "1"
+			(uuid "84ea1036-e4d0-4bc8-800d-03d5a7a28161")
+		)
+		(pin "L1"
+			(uuid "83e6a3a6-d5cc-4431-874f-653f97cd1cf3")
+		)
+		(pin "E1"
+			(uuid "0defbd4b-0b85-46f9-ba2f-cf794b800634")
+		)
+		(instances
+			(project ""
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d"
+					(reference "VR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:2MS6T1B3M2QES")
+		(at 106.68 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbac5a3f-08ff-4779-9ff4-92b85010535f")
+		(property "Reference" "S2"
+			(at 123.19 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2MS6T1B3M2QES"
+			(at 123.19 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "2MS6T1B3M2QES"
+			(at 123.19 239.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/979/Dailywell_01132020_2M_Series-1708785.pdf"
+			(at 123.19 339.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Toggle Switches SPST 2-4VDC , 1,000 M , OFF-ON 20 mmax , -40C to 85C"
+			(at 106.68 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "23.63"
+			(at 123.19 539.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Dailywell"
+			(at 123.19 639.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2MS6T1B3M2QES"
+			(at 123.19 739.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "118-2MS6T1B3M2QES"
+			(at 123.19 839.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Dailywell/2MS6T1B3M2QES?qs=B6kkDfuK7%2FCLnLIcqzvQEQ%3D%3D"
+			(at 123.19 939.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 123.19 1039.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 123.19 1139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e325e2a-a6c7-42d0-a30e-a96b826a428d")
+		)
+		(pin "3"
+			(uuid "766bb6d9-9c21-4dd6-9b97-cda82c687c29")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:2MS6T1B3M2QES")
+		(at 146.05 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f99f5862-1d79-4580-ba21-c59a50fe430f")
+		(property "Reference" "S4"
+			(at 162.56 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2MS6T1B3M2QES"
+			(at 162.56 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "2MS6T1B3M2QES"
+			(at 162.56 239.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/979/Dailywell_01132020_2M_Series-1708785.pdf"
+			(at 162.56 339.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Toggle Switches SPST 2-4VDC , 1,000 M , OFF-ON 20 mmax , -40C to 85C"
+			(at 146.05 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "23.63"
+			(at 162.56 539.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Dailywell"
+			(at 162.56 639.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2MS6T1B3M2QES"
+			(at 162.56 739.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "118-2MS6T1B3M2QES"
+			(at 162.56 839.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Dailywell/2MS6T1B3M2QES?qs=B6kkDfuK7%2FCLnLIcqzvQEQ%3D%3D"
+			(at 162.56 939.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 162.56 1039.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 162.56 1139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96985877-6385-4bf2-adb2-8392ad818bd4")
+		)
+		(pin "3"
+			(uuid "08d89765-5896-4fe8-a955-f59924b5976c")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d"
+					(reference "S4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:PTL60-15O1-104B2")
+		(at 50.8 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc861b7c-526b-4b3a-a90c-f9a7b6e1f8d9")
+		(property "Reference" "VR2"
+			(at 72.39 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTL60-15O1-104B2"
+			(at 72.39 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PTL6015O1104B2"
+			(at 90.17 248.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/54/PTL-777483.pdf"
+			(at 90.17 348.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Res Carbon Film POT 100K Ohm 20% 0.2W(1/5W) (75 X 9 X 22mm) Pin Thru-Hole"
+			(at 50.8 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "23"
+			(at 90.17 548.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-PTL60-15O1-104B2"
+			(at 90.17 648.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PTL60-15O1-104B2?qs=nAEW9fCjKd9VkMEfC2OFmQ%3D%3D"
+			(at 90.17 748.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 90.17 848.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PTL60-15O1-104B2"
+			(at 90.17 948.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b14076c0-1ef4-4a2f-8f4c-7f8ee3460283")
+		)
+		(pin "B1"
+			(uuid "ab9a882d-d1fd-4afa-af58-53d2fdb453ad")
+		)
+		(pin "2"
+			(uuid "aa4b5e7f-4a73-475a-b87e-85541bc3f377")
+		)
+		(pin "1"
+			(uuid "9afe6007-9353-4930-a912-a90d4856f738")
+		)
+		(pin "L1"
+			(uuid "133280ed-6329-49e7-b927-587d8ed142e4")
+		)
+		(pin "E1"
+			(uuid "21c32633-c7be-4063-9661-9b0480fd5a37")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d"
+					(reference "VR2")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 62.23 22.86)
+		(at 52.07 29.21)
 		(size 60.96 77.47)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1225,7 +2453,7 @@
 		)
 		(uuid "daefe003-d8cf-4691-bd0f-767a0f461cd3")
 		(property "Sheetname" "RC Filtered Encoders"
-			(at 62.23 22.1484 0)
+			(at 52.07 28.4984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1234,7 +2462,7 @@
 			)
 		)
 		(property "Sheetfile" "rc-encoders.kicad_sch"
-			(at 62.23 100.9146 0)
+			(at 52.07 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1243,7 +2471,7 @@
 			)
 		)
 		(pin "5V" input
-			(at 62.23 29.21 180)
+			(at 52.07 35.56 180)
 			(uuid "eefe5952-0179-4ca8-9d28-494996e89d4f")
 			(effects
 				(font
@@ -1253,7 +2481,7 @@
 			)
 		)
 		(pin "AOut1" output
-			(at 123.19 26.67 0)
+			(at 113.03 33.02 0)
 			(uuid "6ef53a57-924e-4436-8f86-03bcf51ac425")
 			(effects
 				(font
@@ -1263,7 +2491,7 @@
 			)
 		)
 		(pin "AOut3" output
-			(at 123.19 31.75 0)
+			(at 113.03 38.1 0)
 			(uuid "f9a3eba2-f773-4aee-9b5a-9a24af9cb0db")
 			(effects
 				(font
@@ -1273,7 +2501,7 @@
 			)
 		)
 		(pin "AOut5" output
-			(at 123.19 36.83 0)
+			(at 113.03 43.18 0)
 			(uuid "1405100d-82a5-412d-a872-6d767ea6c28f")
 			(effects
 				(font
@@ -1283,7 +2511,7 @@
 			)
 		)
 		(pin "AOut8" output
-			(at 123.19 44.45 0)
+			(at 113.03 50.8 0)
 			(uuid "0af1fa8e-09a0-4237-919c-0da0a5972a01")
 			(effects
 				(font
@@ -1293,7 +2521,7 @@
 			)
 		)
 		(pin "AOut6" output
-			(at 123.19 39.37 0)
+			(at 113.03 45.72 0)
 			(uuid "78b39cfd-e2bd-4b4a-acfb-56e6b6a84e27")
 			(effects
 				(font
@@ -1303,7 +2531,7 @@
 			)
 		)
 		(pin "AOut7" output
-			(at 123.19 41.91 0)
+			(at 113.03 48.26 0)
 			(uuid "f2be6887-dd0b-4056-9178-53ef2dc9c6ae")
 			(effects
 				(font
@@ -1313,7 +2541,7 @@
 			)
 		)
 		(pin "AOut4" output
-			(at 123.19 34.29 0)
+			(at 113.03 40.64 0)
 			(uuid "71da67b4-ef7e-4f45-9345-1164e5846d38")
 			(effects
 				(font
@@ -1323,7 +2551,7 @@
 			)
 		)
 		(pin "AOut2" output
-			(at 123.19 29.21 0)
+			(at 113.03 35.56 0)
 			(uuid "128293d2-97d7-4cdd-8e39-de7321dd7622")
 			(effects
 				(font
@@ -1333,7 +2561,7 @@
 			)
 		)
 		(pin "BOut4" output
-			(at 123.19 59.69 0)
+			(at 113.03 66.04 0)
 			(uuid "bb190af3-c812-41f4-8a97-7c8eee09f1a0")
 			(effects
 				(font
@@ -1343,7 +2571,7 @@
 			)
 		)
 		(pin "BOut2" output
-			(at 123.19 54.61 0)
+			(at 113.03 60.96 0)
 			(uuid "4830cb99-c9b0-490c-b1d3-7d1c46b48c51")
 			(effects
 				(font
@@ -1353,7 +2581,7 @@
 			)
 		)
 		(pin "BOut6" output
-			(at 123.19 64.77 0)
+			(at 113.03 71.12 0)
 			(uuid "21a264a0-126b-41c2-a99f-562ac6228346")
 			(effects
 				(font
@@ -1363,7 +2591,7 @@
 			)
 		)
 		(pin "BOut5" output
-			(at 123.19 62.23 0)
+			(at 113.03 68.58 0)
 			(uuid "a4a4896b-9eda-4f9b-9a72-b432b4d5a6d1")
 			(effects
 				(font
@@ -1373,7 +2601,7 @@
 			)
 		)
 		(pin "BOut7" output
-			(at 123.19 67.31 0)
+			(at 113.03 73.66 0)
 			(uuid "f781a766-5814-4e79-bc5d-dc646428d99e")
 			(effects
 				(font
@@ -1383,7 +2611,7 @@
 			)
 		)
 		(pin "BOut8" output
-			(at 123.19 69.85 0)
+			(at 113.03 76.2 0)
 			(uuid "aee79452-5f2d-47da-9137-ec5f2857326c")
 			(effects
 				(font
@@ -1393,7 +2621,7 @@
 			)
 		)
 		(pin "BOut3" output
-			(at 123.19 57.15 0)
+			(at 113.03 63.5 0)
 			(uuid "3e00aa46-a7e4-42e0-8594-9c2bd3ceddc2")
 			(effects
 				(font
@@ -1403,7 +2631,7 @@
 			)
 		)
 		(pin "BOut1" output
-			(at 123.19 52.07 0)
+			(at 113.03 58.42 0)
 			(uuid "0da2f73d-6aad-497c-b789-444b880c399a")
 			(effects
 				(font
@@ -1413,7 +2641,7 @@
 			)
 		)
 		(pin "E1_SW" output
-			(at 123.19 77.47 0)
+			(at 113.03 83.82 0)
 			(uuid "4e98789c-c34b-48d1-98fb-f9425008492c")
 			(effects
 				(font
@@ -1423,7 +2651,7 @@
 			)
 		)
 		(pin "E1_LED_ORANGE" input
-			(at 62.23 34.29 180)
+			(at 52.07 40.64 180)
 			(uuid "d40c1fa5-882c-4ffc-933c-176a8252e59e")
 			(effects
 				(font
@@ -1433,7 +2661,7 @@
 			)
 		)
 		(pin "E1_LED_BLUE" input
-			(at 62.23 36.83 180)
+			(at 52.07 43.18 180)
 			(uuid "43d31862-4cdc-4ffa-80ad-124147cf4257")
 			(effects
 				(font
@@ -1443,7 +2671,7 @@
 			)
 		)
 		(pin "E2_LED_BLUE" input
-			(at 62.23 43.18 180)
+			(at 52.07 49.53 180)
 			(uuid "03bd6a1e-f7fb-40c3-9cd1-59fbf2444143")
 			(effects
 				(font
@@ -1453,7 +2681,7 @@
 			)
 		)
 		(pin "E2_LED_ORANGE" input
-			(at 62.23 40.64 180)
+			(at 52.07 46.99 180)
 			(uuid "85f00111-e23e-49b8-b1e1-26fae18efc12")
 			(effects
 				(font
@@ -1463,7 +2691,7 @@
 			)
 		)
 		(pin "E2_SW" output
-			(at 123.19 80.01 0)
+			(at 113.03 86.36 0)
 			(uuid "63f8fc76-e378-413c-a9c4-ec7252c577d1")
 			(effects
 				(font
@@ -1473,7 +2701,7 @@
 			)
 		)
 		(pin "E3_LED_ORANGE" input
-			(at 62.23 46.99 180)
+			(at 52.07 53.34 180)
 			(uuid "4612b14b-82f5-4305-b3b6-e9012985ec6c")
 			(effects
 				(font
@@ -1483,7 +2711,7 @@
 			)
 		)
 		(pin "E3_LED_BLUE" input
-			(at 62.23 49.53 180)
+			(at 52.07 55.88 180)
 			(uuid "55d5bf77-03cf-4ab7-b386-1d52b71ccdab")
 			(effects
 				(font
@@ -1493,7 +2721,7 @@
 			)
 		)
 		(pin "E3_SW" output
-			(at 123.19 82.55 0)
+			(at 113.03 88.9 0)
 			(uuid "7bcc24e9-59b7-4b87-b093-c6e8b3eb743d")
 			(effects
 				(font
@@ -1503,7 +2731,7 @@
 			)
 		)
 		(pin "E4_LED_BLUE" input
-			(at 62.23 55.88 180)
+			(at 52.07 62.23 180)
 			(uuid "fef3d9e2-8bac-480e-bbd1-f687a96b2d3c")
 			(effects
 				(font
@@ -1513,7 +2741,7 @@
 			)
 		)
 		(pin "E4_LED_ORANGE" input
-			(at 62.23 53.34 180)
+			(at 52.07 59.69 180)
 			(uuid "4082b1cb-bf6c-4b38-8621-b6e757ced466")
 			(effects
 				(font
@@ -1523,7 +2751,7 @@
 			)
 		)
 		(pin "E4_SW" output
-			(at 123.19 85.09 0)
+			(at 113.03 91.44 0)
 			(uuid "565a281c-2031-4f1e-a257-998868fca878")
 			(effects
 				(font
@@ -1533,7 +2761,7 @@
 			)
 		)
 		(pin "E5_LED_ORANGE" input
-			(at 62.23 59.69 180)
+			(at 52.07 66.04 180)
 			(uuid "a492a733-bff4-421d-acac-9591eb6aee38")
 			(effects
 				(font
@@ -1543,7 +2771,7 @@
 			)
 		)
 		(pin "E5_LED_BLUE" input
-			(at 62.23 62.23 180)
+			(at 52.07 68.58 180)
 			(uuid "84ebb598-d3c7-4204-811e-15b950a610e3")
 			(effects
 				(font
@@ -1553,7 +2781,7 @@
 			)
 		)
 		(pin "E5_SW" output
-			(at 123.19 87.63 0)
+			(at 113.03 93.98 0)
 			(uuid "e84a574b-563b-4e70-a358-2996bd0cc9dd")
 			(effects
 				(font
@@ -1563,7 +2791,7 @@
 			)
 		)
 		(pin "E6_LED_BLUE" input
-			(at 62.23 66.04 180)
+			(at 52.07 72.39 180)
 			(uuid "8c5c7259-4717-474b-a2b0-9cae9067a27d")
 			(effects
 				(font
@@ -1573,7 +2801,7 @@
 			)
 		)
 		(pin "E6_LED_ORANGE" input
-			(at 62.23 68.58 180)
+			(at 52.07 74.93 180)
 			(uuid "6dcd9f07-ee2c-46a9-821d-0bc57fc196b4")
 			(effects
 				(font
@@ -1583,7 +2811,7 @@
 			)
 		)
 		(pin "E6_SW" output
-			(at 123.19 90.17 0)
+			(at 113.03 96.52 0)
 			(uuid "99011bc2-28a0-4f51-9eb3-8f31245ca4c1")
 			(effects
 				(font
@@ -1593,7 +2821,7 @@
 			)
 		)
 		(pin "E7_LED_BLUE" input
-			(at 62.23 72.39 180)
+			(at 52.07 78.74 180)
 			(uuid "b149d5b4-3510-4931-a303-a8c9e0d8601e")
 			(effects
 				(font
@@ -1603,7 +2831,7 @@
 			)
 		)
 		(pin "E7_LED_ORANGE" input
-			(at 62.23 74.93 180)
+			(at 52.07 81.28 180)
 			(uuid "b3fe19de-cab1-4b34-ac8c-9f3cd79e76f4")
 			(effects
 				(font
@@ -1613,7 +2841,7 @@
 			)
 		)
 		(pin "E7_SW" output
-			(at 123.19 92.71 0)
+			(at 113.03 99.06 0)
 			(uuid "7c910748-4fca-41ed-9e1b-8a999169e6bd")
 			(effects
 				(font
@@ -1623,7 +2851,7 @@
 			)
 		)
 		(pin "E8_LED_ORANGE" input
-			(at 62.23 80.01 180)
+			(at 52.07 86.36 180)
 			(uuid "889e4821-0e05-45d3-9559-2c6a76ea557d")
 			(effects
 				(font
@@ -1633,7 +2861,7 @@
 			)
 		)
 		(pin "E8_LED_BLUE" input
-			(at 62.23 82.55 180)
+			(at 52.07 88.9 180)
 			(uuid "8a699167-78ee-47a5-8493-8ffb89c00c70")
 			(effects
 				(font
@@ -1643,7 +2871,7 @@
 			)
 		)
 		(pin "E8_SW" output
-			(at 123.19 95.25 0)
+			(at 113.03 101.6 0)
 			(uuid "1c893be1-ce28-409a-b0a2-176a73af336a")
 			(effects
 				(font
