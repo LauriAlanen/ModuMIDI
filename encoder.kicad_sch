@@ -1,0 +1,6040 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4e77ff81-8b63-4635-b2a2-78cdcb58ab55")
+	(paper "A4")
+	(lib_symbols
+		(symbol "SamacSys_Parts:PEL12D-4225S-S1024"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 21.59 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "PEL12D-4225S-S1024"
+				(at 21.59 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "PEL12D4225SS1024"
+				(at 21.59 -87.3 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.arrow.com/en/products/pel12d-4225s-s1024/bourns"
+				(at 21.59 -187.3 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "PEL12D - 12 mm Encoder with Switch and Illuminated Shaft"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "25"
+				(at 21.59 -387.3 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Bourns"
+				(at 21.59 -487.3 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "PEL12D-4225S-S1024"
+				(at 21.59 -587.3 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "652-PEL12D4225SS1024"
+				(at 21.59 -687.3 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PEL12D-4225S-S1024?qs=fgHA1UgJI8D9waZeRmA%2FQA%3D%3D"
+				(at 21.59 -787.3 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "PEL12D-4225S-S1024"
+				(at 21.59 -887.3 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pel12d-4225s-s1024/bourns?region=nac"
+				(at 21.59 -987.3 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "PEL12D-4225S-S1024_1_1"
+				(rectangle
+					(start 5.08 10.16)
+					(end 20.32 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 15.24 270)
+					(length 5.08)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 15.24 270)
+					(length 5.08)
+					(name "+_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -17.78 90)
+					(length 5.08)
+					(name "CCW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 15.24 270)
+					(length 5.08)
+					(name "+_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -17.78 90)
+					(length 5.08)
+					(name "WIPER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 270)
+					(length 5.08)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -17.78 90)
+					(length 5.08)
+					(name "CW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 133.35 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06baf28c-2a00-4c94-a304-f47a37ab49b8")
+	)
+	(junction
+		(at 39.37 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "203fe52f-0b9d-40bc-a56b-a329ccbf9d30")
+	)
+	(junction
+		(at 119.38 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23f5f7ee-a15e-404d-b474-dc5c3d430b4d")
+	)
+	(junction
+		(at 133.35 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26d66b4b-051e-45ed-b443-7d2568c045c6")
+	)
+	(junction
+		(at 39.37 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37ef4ae2-db11-4045-9ae2-f96c86bc9527")
+	)
+	(junction
+		(at 223.52 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5758c84a-98f7-42d7-ab66-0be49294242f")
+	)
+	(junction
+		(at 38.1 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67be2a18-1e5b-4731-85db-3bddf3a51f07")
+	)
+	(junction
+		(at 133.35 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "871daa2a-8585-4005-99d4-837bfdd84fe9")
+	)
+	(junction
+		(at 133.35 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8830fb48-968e-4a54-ae0a-8da242d9f52b")
+	)
+	(junction
+		(at 223.52 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97605fce-5b9f-44b8-8944-e5c5262f91a4")
+	)
+	(junction
+		(at 38.1 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9dcc4259-629e-4127-b015-fbbbace2755b")
+	)
+	(junction
+		(at 223.52 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a82e223c-c260-42da-9d6c-ca953b7aff4d")
+	)
+	(junction
+		(at 38.1 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb372af8-c90d-49cb-9d44-8431387f3821")
+	)
+	(junction
+		(at 223.52 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6e87512-ef49-4d19-bc19-d04250fda43e")
+	)
+	(junction
+		(at 38.1 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb542cd1-d990-4546-b1ab-b89be1b88d82")
+	)
+	(junction
+		(at 119.38 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5c001f1-2641-4995-b9a8-75e59ec365d8")
+	)
+	(wire
+		(pts
+			(xy 153.67 82.55) (xy 153.67 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0017947c-6cc9-499f-b01c-40aaf02a8628")
+	)
+	(wire
+		(pts
+			(xy 133.35 100.33) (xy 133.35 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06087fb6-3b34-454a-973a-806bc3cfb47e")
+	)
+	(wire
+		(pts
+			(xy 58.42 180.34) (xy 58.42 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07eeebcd-7934-47eb-862c-6e915b168d7a")
+	)
+	(wire
+		(pts
+			(xy 168.91 97.79) (xy 172.72 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08726df5-a0f7-4093-be1f-47f654eec265")
+	)
+	(wire
+		(pts
+			(xy 223.52 99.06) (xy 223.52 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bac8170-e5bf-49e8-a35b-a80a62a5153d")
+	)
+	(wire
+		(pts
+			(xy 30.48 170.18) (xy 38.1 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10f39152-f5fe-450c-af3f-c04346b89fe2")
+	)
+	(wire
+		(pts
+			(xy 215.9 40.64) (xy 223.52 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "137a6f80-2aa8-417d-b9b0-11bc10080c0d")
+	)
+	(wire
+		(pts
+			(xy 133.35 45.72) (xy 135.89 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "138a0645-9b98-4f75-a441-94968b6c2c8c")
+	)
+	(wire
+		(pts
+			(xy 168.91 40.64) (xy 172.72 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1440a130-425f-43b1-90c8-4fc462d81b70")
+	)
+	(wire
+		(pts
+			(xy 119.38 152.4) (xy 119.38 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16915cb9-83a2-424a-aea7-0fb1434b9c18")
+	)
+	(wire
+		(pts
+			(xy 73.66 167.64) (xy 77.47 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16946aaa-4182-43aa-bb5c-6bc73a2476e9")
+	)
+	(wire
+		(pts
+			(xy 154.94 168.91) (xy 157.48 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a8d615e-550a-4cd1-a28c-69fb7ee8ac81")
+	)
+	(wire
+		(pts
+			(xy 73.66 170.18) (xy 76.2 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b9db1d6-a523-4f9e-a8fd-e3c5b354b41b")
+	)
+	(wire
+		(pts
+			(xy 30.48 102.87) (xy 38.1 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fdde4bc-7914-4694-bdc8-0886c0f7d2d8")
+	)
+	(wire
+		(pts
+			(xy 38.1 170.18) (xy 38.1 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24543c0d-3099-4d3d-a9d9-7938f85c6248")
+	)
+	(wire
+		(pts
+			(xy 39.37 45.72) (xy 41.91 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a4e3339-abf4-4b7f-b32e-8c9585dba16f")
+	)
+	(wire
+		(pts
+			(xy 125.73 95.25) (xy 133.35 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "327b1a49-20ae-463f-9a1a-4765b07e728a")
+	)
+	(wire
+		(pts
+			(xy 119.38 163.83) (xy 121.92 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34ed5b5b-1eb4-4664-85db-5f3635b1f1e1")
+	)
+	(wire
+		(pts
+			(xy 243.84 81.28) (xy 243.84 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "354d3840-2637-4f5c-89eb-a8093b995cd1")
+	)
+	(wire
+		(pts
+			(xy 226.06 96.52) (xy 224.79 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38d4ee98-6c3d-46e7-a217-90f328d0a375")
+	)
+	(wire
+		(pts
+			(xy 168.91 95.25) (xy 172.72 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38f97961-fb69-4d27-85a8-833d9cd1d51e")
+	)
+	(wire
+		(pts
+			(xy 259.08 40.64) (xy 262.89 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f347a7e-6da3-4895-abf2-79f3b6da9bcc")
+	)
+	(wire
+		(pts
+			(xy 154.94 163.83) (xy 158.75 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f9ea5dc-ecf0-4de9-9e27-39689774e1b3")
+	)
+	(wire
+		(pts
+			(xy 40.64 100.33) (xy 39.37 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "428fe33d-adcc-432d-bcdd-f9ec635a5a5f")
+	)
+	(wire
+		(pts
+			(xy 133.35 95.25) (xy 135.89 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43fef2a1-e26d-404e-a133-e38e386da78c")
+	)
+	(wire
+		(pts
+			(xy 41.91 43.18) (xy 40.64 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44cf628f-4882-496d-a6f2-a7a486dfb49e")
+	)
+	(wire
+		(pts
+			(xy 38.1 165.1) (xy 40.64 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44ed21fe-4de1-4f50-84bf-581f5d349a29")
+	)
+	(wire
+		(pts
+			(xy 119.38 168.91) (xy 119.38 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48b338f8-c6a0-489d-a1a1-f790eb79b0bf")
+	)
+	(wire
+		(pts
+			(xy 58.42 152.4) (xy 58.42 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49bc44c3-4bc6-4fb1-9273-7ce19b69c8da")
+	)
+	(wire
+		(pts
+			(xy 259.08 91.44) (xy 261.62 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ab66f83-c648-4b91-ba9d-ddee9bdc1e4e")
+	)
+	(wire
+		(pts
+			(xy 125.73 40.64) (xy 133.35 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d9078f8-2eeb-42e1-8fcb-bb4887ee58a6")
+	)
+	(wire
+		(pts
+			(xy 223.52 40.64) (xy 226.06 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51118c33-95bf-4e18-ae44-50dc9433ee11")
+	)
+	(wire
+		(pts
+			(xy 38.1 97.79) (xy 40.64 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "545b3a0d-f051-4835-bf96-6c75a430df71")
+	)
+	(wire
+		(pts
+			(xy 39.37 45.72) (xy 39.37 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "587c1903-0b91-493b-8440-daa963749ee8")
+	)
+	(wire
+		(pts
+			(xy 154.94 161.29) (xy 157.48 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bd44f01-e6cc-4804-bc8e-35f271925730")
+	)
+	(wire
+		(pts
+			(xy 133.35 29.21) (xy 133.35 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d2ffa50-b18a-488e-9a2b-71d0a769ddbe")
+	)
+	(wire
+		(pts
+			(xy 38.1 102.87) (xy 38.1 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f0858bf-0f56-4834-80a0-df727663fe6f")
+	)
+	(wire
+		(pts
+			(xy 38.1 86.36) (xy 38.1 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61f26d28-4e6e-4680-89be-ec93501ba9e3")
+	)
+	(wire
+		(pts
+			(xy 74.93 43.18) (xy 78.74 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67de141b-0432-42e4-83f6-450d17a4878a")
+	)
+	(wire
+		(pts
+			(xy 31.75 40.64) (xy 39.37 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "687b35c4-308f-4268-ac49-dec607b1348a")
+	)
+	(wire
+		(pts
+			(xy 223.52 45.72) (xy 226.06 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a6ca2df-be92-43f7-95e6-a9d5af30a449")
+	)
+	(wire
+		(pts
+			(xy 39.37 40.64) (xy 41.91 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72b241c9-306d-42dd-9a9b-855a88f853ca")
+	)
+	(wire
+		(pts
+			(xy 59.69 55.88) (xy 59.69 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "735376a2-3700-4b23-b165-0b3a0846399d")
+	)
+	(wire
+		(pts
+			(xy 58.42 85.09) (xy 58.42 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74e83928-9732-4c55-acbc-f9cc26c49620")
+	)
+	(wire
+		(pts
+			(xy 39.37 29.21) (xy 39.37 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78a309a6-7893-4492-9a52-7f5c05e15f82")
+	)
+	(wire
+		(pts
+			(xy 215.9 99.06) (xy 223.52 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a813c07-cc86-429c-9d27-34ee27f2bbc9")
+	)
+	(wire
+		(pts
+			(xy 73.66 102.87) (xy 76.2 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fe8de3b-f639-4380-b378-dc2410f499eb")
+	)
+	(wire
+		(pts
+			(xy 125.73 45.72) (xy 133.35 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8037d90e-1163-43d8-8c7e-d900af0932c1")
+	)
+	(wire
+		(pts
+			(xy 111.76 163.83) (xy 119.38 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "821368db-d127-4c30-ae9f-f609b2c6a111")
+	)
+	(wire
+		(pts
+			(xy 74.93 38.1) (xy 77.47 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84ba0b5b-cdf4-42c5-95f8-c1aed3a848ae")
+	)
+	(wire
+		(pts
+			(xy 259.08 43.18) (xy 262.89 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87f88591-cb16-4578-bd36-e7371a7e9052")
+	)
+	(wire
+		(pts
+			(xy 168.91 43.18) (xy 172.72 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b08b7bc-ffd5-475e-bb31-de6fd19f30e5")
+	)
+	(wire
+		(pts
+			(xy 74.93 45.72) (xy 77.47 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bfef75d-09a9-4f37-bf61-4487052dac13")
+	)
+	(wire
+		(pts
+			(xy 135.89 43.18) (xy 134.62 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "946b3309-2c62-42ca-b3dc-ccfe16895a3b")
+	)
+	(wire
+		(pts
+			(xy 30.48 97.79) (xy 38.1 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94d71644-2724-457b-98db-0fa7925327f5")
+	)
+	(wire
+		(pts
+			(xy 259.08 38.1) (xy 261.62 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98f75c08-1c34-4a8b-8795-f48f9ec7f224")
+	)
+	(wire
+		(pts
+			(xy 243.84 55.88) (xy 243.84 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a508be8-0d52-4d52-8a26-dac96684bcc9")
+	)
+	(wire
+		(pts
+			(xy 125.73 100.33) (xy 133.35 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c7115a6-d8bb-44e3-a354-9ca62465c11c")
+	)
+	(wire
+		(pts
+			(xy 223.52 93.98) (xy 226.06 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a00490fb-3856-4a92-a8e6-9ac42425ac8a")
+	)
+	(wire
+		(pts
+			(xy 73.66 95.25) (xy 76.2 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a38f4ddb-01e3-4849-9a1b-c0c46b5535b0")
+	)
+	(wire
+		(pts
+			(xy 31.75 45.72) (xy 39.37 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4016366-1445-4016-a43d-65c62ff33cd7")
+	)
+	(wire
+		(pts
+			(xy 73.66 165.1) (xy 77.47 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a53abf2e-d734-42a4-bcdd-5d9f902be8da")
+	)
+	(wire
+		(pts
+			(xy 139.7 179.07) (xy 139.7 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6f50c83-6680-4ed8-b9c9-7c6f54b1de75")
+	)
+	(wire
+		(pts
+			(xy 168.91 92.71) (xy 171.45 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7e4b549-7b0d-4ffa-97da-a42f7be99b78")
+	)
+	(wire
+		(pts
+			(xy 168.91 38.1) (xy 171.45 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa5c4f63-55b7-4dac-a0f2-a20007ae2353")
+	)
+	(wire
+		(pts
+			(xy 226.06 43.18) (xy 224.79 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aacfcf41-c945-4e08-baa1-221f9a6d4701")
+	)
+	(wire
+		(pts
+			(xy 215.9 93.98) (xy 223.52 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab0a92b7-b929-4b07-b4b6-5acb0811c507")
+	)
+	(wire
+		(pts
+			(xy 73.66 100.33) (xy 77.47 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab3d09b6-cae5-439a-b244-7765839dec5e")
+	)
+	(wire
+		(pts
+			(xy 259.08 96.52) (xy 262.89 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adcfb71b-f180-40dd-b5eb-972030c008d4")
+	)
+	(wire
+		(pts
+			(xy 153.67 27.94) (xy 153.67 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af1eb910-c170-4f2b-a7c6-c4577d74dca2")
+	)
+	(wire
+		(pts
+			(xy 40.64 167.64) (xy 39.37 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afb8138b-821d-436a-ad91-92456fbf2d34")
+	)
+	(wire
+		(pts
+			(xy 121.92 166.37) (xy 120.65 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b50ee6a4-d041-418f-8163-ae1b2928ec07")
+	)
+	(wire
+		(pts
+			(xy 38.1 170.18) (xy 40.64 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b612ac41-6c83-4612-b5b2-75e31d6e7bbb")
+	)
+	(wire
+		(pts
+			(xy 133.35 45.72) (xy 133.35 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b709c7ad-18d8-443c-95c6-72aa9d0114ef")
+	)
+	(wire
+		(pts
+			(xy 119.38 168.91) (xy 121.92 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b832c350-c3a7-4023-98fd-b3401764dd60")
+	)
+	(wire
+		(pts
+			(xy 243.84 109.22) (xy 243.84 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b844ed7a-6b96-4989-ad5b-cd71437444d8")
+	)
+	(wire
+		(pts
+			(xy 73.66 97.79) (xy 77.47 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9f47c56-c9c3-4b9c-bacc-92fdeb9618a4")
+	)
+	(wire
+		(pts
+			(xy 259.08 45.72) (xy 261.62 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c14ccb46-b6ad-476a-bb6b-f40049563214")
+	)
+	(wire
+		(pts
+			(xy 223.52 99.06) (xy 226.06 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3c42092-6630-49d1-9893-1f09c6bb77a9")
+	)
+	(wire
+		(pts
+			(xy 73.66 162.56) (xy 76.2 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c78c4d76-d3ed-4957-8f59-047139a82e8d")
+	)
+	(wire
+		(pts
+			(xy 153.67 110.49) (xy 153.67 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7f9ef7e-63a2-441f-91de-aa7f9f07f9c7")
+	)
+	(wire
+		(pts
+			(xy 215.9 45.72) (xy 223.52 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce705e44-d5c5-4faf-86b1-327f59f5511d")
+	)
+	(wire
+		(pts
+			(xy 259.08 99.06) (xy 261.62 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cef817dd-34e5-444c-9e16-c94cb3c7d0a5")
+	)
+	(wire
+		(pts
+			(xy 133.35 83.82) (xy 133.35 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf14fe11-a28d-48c9-93bd-8cff7e9c642b")
+	)
+	(wire
+		(pts
+			(xy 135.89 97.79) (xy 134.62 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf5f4115-038b-4e0f-a017-9160235cf62e")
+	)
+	(wire
+		(pts
+			(xy 38.1 153.67) (xy 38.1 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfbc75a0-8852-48dd-b90f-f237068843c1")
+	)
+	(wire
+		(pts
+			(xy 38.1 102.87) (xy 40.64 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddbda449-c5c6-4e80-a504-a533c7374ecf")
+	)
+	(wire
+		(pts
+			(xy 58.42 113.03) (xy 58.42 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dffbd953-f0bc-44d1-8263-21ac4b385f71")
+	)
+	(wire
+		(pts
+			(xy 223.52 29.21) (xy 223.52 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1e3b0cc-acfd-4bfe-befd-b849cc72c035")
+	)
+	(wire
+		(pts
+			(xy 168.91 45.72) (xy 171.45 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e539b999-0324-4182-ade9-41e736b38957")
+	)
+	(wire
+		(pts
+			(xy 139.7 151.13) (xy 139.7 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e862e457-38d0-4c64-9807-7f24baf63ae6")
+	)
+	(wire
+		(pts
+			(xy 74.93 40.64) (xy 78.74 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9e6932a-a61b-4736-91a0-7ba581e92142")
+	)
+	(wire
+		(pts
+			(xy 111.76 168.91) (xy 119.38 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eab19fbb-8b78-4423-909f-92368fb1380a")
+	)
+	(wire
+		(pts
+			(xy 30.48 165.1) (xy 38.1 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb283628-a1a1-440b-b964-a0070aa612b6")
+	)
+	(wire
+		(pts
+			(xy 168.91 100.33) (xy 171.45 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec2d7f18-dd61-4764-84ef-93c1c6a8952c")
+	)
+	(wire
+		(pts
+			(xy 59.69 27.94) (xy 59.69 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee7d3732-f1cb-4e1d-9a03-1d3609d097f6")
+	)
+	(wire
+		(pts
+			(xy 223.52 45.72) (xy 223.52 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef23ecb6-f4c4-4099-9f6b-913ba91c49cc")
+	)
+	(wire
+		(pts
+			(xy 153.67 55.88) (xy 153.67 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f16b3ed7-1773-43c9-beb2-0e9db39385f6")
+	)
+	(wire
+		(pts
+			(xy 133.35 100.33) (xy 135.89 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2ba051f-1450-45bb-b9b8-771e8ff42d3f")
+	)
+	(wire
+		(pts
+			(xy 223.52 82.55) (xy 223.52 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f74c000e-ac05-44d9-8658-ccab01bffcc7")
+	)
+	(wire
+		(pts
+			(xy 133.35 40.64) (xy 135.89 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f76fc095-59f9-49ca-8b18-107054376138")
+	)
+	(wire
+		(pts
+			(xy 154.94 166.37) (xy 158.75 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7d8836f-3808-460d-9871-42320f64fafd")
+	)
+	(wire
+		(pts
+			(xy 243.84 27.94) (xy 243.84 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb7c6821-7f02-48f3-a8e8-dc6ce6c3045f")
+	)
+	(wire
+		(pts
+			(xy 259.08 93.98) (xy 262.89 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd2e2732-f4fd-4edf-9342-106fb0c938c1")
+	)
+	(hierarchical_label "E4_LED_BLUE"
+		(shape input)
+		(at 77.47 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "00d43737-207a-4ff6-a12c-bc18395126ef")
+	)
+	(hierarchical_label "AOut8"
+		(shape output)
+		(at 119.38 152.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "018cb468-9427-4f24-bc5a-404f3e8c7c5a")
+	)
+	(hierarchical_label "BIn4"
+		(shape input)
+		(at 30.48 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "083ba885-f594-46ef-99ef-ee26e29893e5")
+	)
+	(hierarchical_label "BOut5"
+		(shape output)
+		(at 133.35 111.76 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0eb519a1-c888-42a5-b587-edaa101f2bed")
+	)
+	(hierarchical_label "BIn1"
+		(shape input)
+		(at 31.75 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0edb1e72-7fa1-47f3-87b4-b3277feac3e7")
+	)
+	(hierarchical_label "E3_LED_BLUE"
+		(shape input)
+		(at 262.89 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "13bd4cb1-afe6-4b73-8961-59d072c6462c")
+	)
+	(hierarchical_label "AIn1"
+		(shape input)
+		(at 31.75 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "18dfb584-aad1-4cf9-ad9f-35238799b75a")
+	)
+	(hierarchical_label "E4_LED_ORANGE"
+		(shape input)
+		(at 77.47 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1acce856-3758-4775-962e-140bd4541948")
+	)
+	(hierarchical_label "E6_LED_ORANGE"
+		(shape input)
+		(at 262.89 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1c67edbe-3e31-4a09-be65-6025fc7e299b")
+	)
+	(hierarchical_label "AOut4"
+		(shape output)
+		(at 38.1 86.36 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2fafb305-21db-4b84-9853-1fe472cb48e5")
+	)
+	(hierarchical_label "E2_LED_BLUE"
+		(shape input)
+		(at 172.72 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "30311ead-7911-4591-8de1-b108231d268b")
+	)
+	(hierarchical_label "BOut8"
+		(shape output)
+		(at 119.38 180.34 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "342e1d74-b69a-4701-9bdd-eebf46d25233")
+	)
+	(hierarchical_label "BIn3"
+		(shape input)
+		(at 215.9 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "363cca4e-f4db-44d2-b11c-f09d84eaf32b")
+	)
+	(hierarchical_label "BIn5"
+		(shape input)
+		(at 125.73 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "37bcf127-d72c-40de-91b0-59256d34c122")
+	)
+	(hierarchical_label "E1_LED_BLUE"
+		(shape input)
+		(at 78.74 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a29c1ae-ea0c-47c7-83ca-6b81a2d76ea2")
+	)
+	(hierarchical_label "AOut6"
+		(shape output)
+		(at 223.52 82.55 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "471efd84-c74b-443a-8824-0965959e63f3")
+	)
+	(hierarchical_label "AIn2"
+		(shape input)
+		(at 125.73 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "50ff8322-3fc6-49c9-a98c-6970762d4a49")
+	)
+	(hierarchical_label "AIn3"
+		(shape input)
+		(at 215.9 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "542a4f3f-d412-413b-ac00-650b8c787ea2")
+	)
+	(hierarchical_label "BOut6"
+		(shape output)
+		(at 223.52 110.49 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5a1eaf74-1acb-4814-bdf8-daf714d8df2f")
+	)
+	(hierarchical_label "E7_LED_ORANGE"
+		(shape input)
+		(at 77.47 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c454dce-0023-41c1-8180-801f2e3d241c")
+	)
+	(hierarchical_label "AIn6"
+		(shape input)
+		(at 215.9 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5efbf645-70b8-4d16-b297-bdff61382c3c")
+	)
+	(hierarchical_label "AOut2"
+		(shape output)
+		(at 133.35 29.21 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6336057f-787d-4ec3-97a0-8bb7ddc191d7")
+	)
+	(hierarchical_label "BOut3"
+		(shape output)
+		(at 223.52 57.15 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "665ea3de-759e-4622-a3b3-7b49164fd8c2")
+	)
+	(hierarchical_label "AIn8"
+		(shape input)
+		(at 111.76 163.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "698fe8f8-56ea-47af-991b-d68c2cd0b65a")
+	)
+	(hierarchical_label "BOut4"
+		(shape output)
+		(at 38.1 114.3 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "69d69e58-0f63-4128-ac0a-b04159b18438")
+	)
+	(hierarchical_label "AIn5"
+		(shape input)
+		(at 125.73 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7a8e3ecf-d662-432c-9612-aa4809871215")
+	)
+	(hierarchical_label "AIn4"
+		(shape input)
+		(at 30.48 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8212a250-76c2-46b4-a491-83be4a3f85e8")
+	)
+	(hierarchical_label "E5_LED_BLUE"
+		(shape input)
+		(at 172.72 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8d79646f-1a15-4707-a57a-ff1ce45a810c")
+	)
+	(hierarchical_label "BIn2"
+		(shape input)
+		(at 125.73 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8fac3e98-d0af-44fd-9eec-05b913dce623")
+	)
+	(hierarchical_label "AIn7"
+		(shape input)
+		(at 30.48 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "94773772-3957-4a4d-b0de-180da84b202a")
+	)
+	(hierarchical_label "AOut1"
+		(shape output)
+		(at 39.37 29.21 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9636d089-c06a-4b63-8781-1a32b58ac2c6")
+	)
+	(hierarchical_label "E7_LED_BLUE"
+		(shape input)
+		(at 77.47 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "994f04ac-5001-455a-8df6-eef8163724ab")
+	)
+	(hierarchical_label "BIn6"
+		(shape input)
+		(at 215.9 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9acb0307-dfbc-4aa5-b082-11c9c7f0bb6e")
+	)
+	(hierarchical_label "AOut3"
+		(shape output)
+		(at 223.52 29.21 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9deb067f-96ad-459c-94ef-9a476d2c3bbf")
+	)
+	(hierarchical_label "E1_LED_ORANGE"
+		(shape input)
+		(at 78.74 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9f95684a-be89-46c6-9eb3-e664821cbee5")
+	)
+	(hierarchical_label "E3_LED_ORANGE"
+		(shape input)
+		(at 262.89 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a0dee020-4218-488e-bd9c-f2937fba4751")
+	)
+	(hierarchical_label "BOut1"
+		(shape output)
+		(at 39.37 57.15 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a3ac9b98-60d1-47d9-aedf-508f7c84c65a")
+	)
+	(hierarchical_label "E8_LED_ORANGE"
+		(shape input)
+		(at 158.75 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b7353a22-b047-4a72-9aa9-c9f1435737d3")
+	)
+	(hierarchical_label "E2_LED_ORANGE"
+		(shape input)
+		(at 172.72 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bd171401-1c4d-4d5d-8b5a-1915727712c1")
+	)
+	(hierarchical_label "E5_LED_ORANGE"
+		(shape input)
+		(at 172.72 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bddac678-d0e1-4e60-919f-7ddb7a6c7ca8")
+	)
+	(hierarchical_label "BOut2"
+		(shape output)
+		(at 133.35 57.15 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c765f43b-f599-4cc9-9be7-b0e798e7ab47")
+	)
+	(hierarchical_label "AOut7"
+		(shape output)
+		(at 38.1 153.67 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c771dc4c-5f6e-484e-978c-2694678d9d0e")
+	)
+	(hierarchical_label "BOut7"
+		(shape output)
+		(at 38.1 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cdacf935-2b8f-420c-8528-6736ebcd37ee")
+	)
+	(hierarchical_label "E8_LED_BLUE"
+		(shape input)
+		(at 158.75 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ce7ed02c-71de-4ec7-bbd2-f833f087bbc4")
+	)
+	(hierarchical_label "BIn8"
+		(shape input)
+		(at 111.76 168.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf80b7c5-e03d-4cad-9dcc-0355df15feba")
+	)
+	(hierarchical_label "BIn7"
+		(shape input)
+		(at 30.48 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dcbffead-f614-47d7-8319-bb69ad4a0452")
+	)
+	(hierarchical_label "E6_LED_BLUE"
+		(shape input)
+		(at 262.89 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e30cbe6f-84a7-4828-a823-adee4489fd27")
+	)
+	(hierarchical_label "AOut5"
+		(shape output)
+		(at 133.35 83.82 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fc2d2b30-0d92-4239-a321-54782e9dfadd")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05534fac-2c29-4b2e-97df-aa46e560d3a8")
+		(property "Reference" "#PWR028"
+			(at 128.27 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "addc8aa8-90da-41dc-99d2-3f6d49c5f7e3")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 59.69 27.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09af7123-9efe-4cf6-9a6b-821d95527061")
+		(property "Reference" "#PWR029"
+			(at 59.69 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.69 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "050fca57-e17f-46e7-9756-985c9e25a1c7")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 224.79 43.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bec2ef9-2bb0-41a1-a837-5c1980f6eaa2")
+		(property "Reference" "#PWR039"
+			(at 218.44 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c8775cb-9517-4747-89e3-c987a9958c29")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e5bf7dc-ec78-4569-a322-4896f78fab6a")
+		(property "Reference" "#PWR050"
+			(at 139.7 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0c559ed-e688-4404-a6a2-a9885e397949")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17d5ddae-4154-4692-87d6-14138c312557")
+		(property "Reference" "#PWR036"
+			(at 153.67 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6e4ce03-b0ce-4356-9a95-97af47c835db")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 27.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19911d2e-eba5-44a2-a538-2fa85d0af98b")
+		(property "Reference" "#PWR035"
+			(at 153.67 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "059cf5fb-a1d4-4161-91c1-9f66af2689b6")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 58.42 152.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e0a8557-ca72-4801-9943-d166505ef1c8")
+		(property "Reference" "#PWR043"
+			(at 58.42 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 58.42 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76de8eec-a8ea-4df4-90d4-f38809d5eee0")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 243.84 27.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21d34969-c696-401c-9c59-da634dddf5f2")
+		(property "Reference" "#PWR041"
+			(at 243.84 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 243.84 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6050a21a-0ffa-43e0-a747-b0340823e83a")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 171.45 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "262db1a9-0ef8-4287-92b7-3f1704d13acf")
+		(property "Reference" "#PWR012"
+			(at 177.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 38.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 171.45 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4001f6ea-59c5-424f-9a7b-2652a010eaf6")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27f5d9bf-d238-41fb-9e34-3cd820ce4ead")
+		(property "Reference" "#PWR014"
+			(at 82.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.01 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d16a58c-b713-4358-9d49-afcb3bc03bb2")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:PEL12D-4225S-S1024")
+		(at 243.84 30.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29ae7f8b-12e5-4b97-8e3d-6596d741a417")
+		(property "Reference" "IC13"
+			(at 246.9581 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PEL12D-4225S-S1024"
+			(at 246.9581 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PEL12D4225SS1024"
+			(at 156.54 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/pel12d-4225s-s1024/bourns"
+			(at 56.54 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PEL12D - 12 mm Encoder with Switch and Illuminated Shaft"
+			(at 243.84 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "25"
+			(at -143.46 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at -243.46 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PEL12D-4225S-S1024"
+			(at -343.46 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-PEL12D4225SS1024"
+			(at -443.46 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PEL12D-4225S-S1024?qs=fgHA1UgJI8D9waZeRmA%2FQA%3D%3D"
+			(at -543.46 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "PEL12D-4225S-S1024"
+			(at -643.46 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pel12d-4225s-s1024/bourns?region=nac"
+			(at -743.46 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "7984ec2a-f852-45ab-b929-6529f98e80a5")
+		)
+		(pin "C1"
+			(uuid "7e685c4d-f4cb-4075-8eaf-3e27f0e0505f")
+		)
+		(pin "MH2"
+			(uuid "0293997a-0870-4744-a88d-85e56a7a340e")
+		)
+		(pin "2"
+			(uuid "11e0ecc6-5715-4028-8574-09e4f12c512b")
+		)
+		(pin "A1"
+			(uuid "91d5b3fa-1836-4caa-8eb2-cfb5a04544f2")
+		)
+		(pin "1"
+			(uuid "8586b5ab-61df-463d-8568-68d2c4bb8e98")
+		)
+		(pin "B1"
+			(uuid "fdac39a7-63da-44d6-822f-1f2c11aea5ac")
+		)
+		(pin "MH1"
+			(uuid "e8ca0adb-f5ec-4bee-add0-c84e4444306b")
+		)
+		(pin "3"
+			(uuid "bfa6f4e2-553e-4d7e-903b-f8532b21fbb5")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "IC13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 224.79 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d20fc52-e358-4e45-9cc9-24c519a76da9")
+		(property "Reference" "#PWR034"
+			(at 218.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c3e9546-b687-4549-ab83-6c26815e5c13")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:PEL12D-4225S-S1024")
+		(at 153.67 30.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f2c5629-bdd4-4c76-98ed-005b4b7a0229")
+		(property "Reference" "IC11"
+			(at 156.7881 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PEL12D-4225S-S1024"
+			(at 156.7881 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PEL12D4225SS1024"
+			(at 66.37 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/pel12d-4225s-s1024/bourns"
+			(at -33.63 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PEL12D - 12 mm Encoder with Switch and Illuminated Shaft"
+			(at 153.67 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "25"
+			(at -233.63 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at -333.63 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PEL12D-4225S-S1024"
+			(at -433.63 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-PEL12D4225SS1024"
+			(at -533.63 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PEL12D-4225S-S1024?qs=fgHA1UgJI8D9waZeRmA%2FQA%3D%3D"
+			(at -633.63 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "PEL12D-4225S-S1024"
+			(at -733.63 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pel12d-4225s-s1024/bourns?region=nac"
+			(at -833.63 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "bb457127-9a30-4063-9f83-1eedfc465a00")
+		)
+		(pin "C1"
+			(uuid "7fd4c9db-acb1-4420-8cdb-65f41ac7d0a5")
+		)
+		(pin "MH2"
+			(uuid "2153c3ec-092c-45e9-9a48-5aff06e9884b")
+		)
+		(pin "2"
+			(uuid "2183cffe-8235-41cc-9cdd-aa5bd471f937")
+		)
+		(pin "A1"
+			(uuid "18458b06-c5fc-4b3b-bf77-deb3849e6d9e")
+		)
+		(pin "1"
+			(uuid "12bbe55a-46aa-4368-902c-9c07a6a1762d")
+		)
+		(pin "B1"
+			(uuid "b8f61859-90e2-4c50-99c0-641a2d96694d")
+		)
+		(pin "MH1"
+			(uuid "571dc290-e967-4479-b2e1-864e56727d0f")
+		)
+		(pin "3"
+			(uuid "20aeb60d-89af-4c0c-9ab3-e1ee762ec25c")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "IC11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 39.37 167.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33aefdbb-7912-40b2-b68d-04f657e900c2")
+		(property "Reference" "#PWR040"
+			(at 33.02 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 167.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eaf1ceeb-2b90-4047-b8fc-44cd3c64c69b")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 58.42 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35ff88a4-79f1-4164-a94b-5193ea5fd4c5")
+		(property "Reference" "#PWR048"
+			(at 58.42 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 58.42 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14d4b5e0-8619-45a8-886c-b9dcf16fea9a")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:PEL12D-4225S-S1024")
+		(at 58.42 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c19086a-192c-4af7-b99b-cb4919c470a6")
+		(property "Reference" "IC15"
+			(at 61.5381 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PEL12D-4225S-S1024"
+			(at 61.5381 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PEL12D4225SS1024"
+			(at -28.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/pel12d-4225s-s1024/bourns"
+			(at -128.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PEL12D - 12 mm Encoder with Switch and Illuminated Shaft"
+			(at 58.42 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "25"
+			(at -328.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at -428.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PEL12D-4225S-S1024"
+			(at -528.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-PEL12D4225SS1024"
+			(at -628.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PEL12D-4225S-S1024?qs=fgHA1UgJI8D9waZeRmA%2FQA%3D%3D"
+			(at -728.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "PEL12D-4225S-S1024"
+			(at -828.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pel12d-4225s-s1024/bourns?region=nac"
+			(at -928.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "db42cfc3-3111-4690-b2dd-798dcd0c348d")
+		)
+		(pin "C1"
+			(uuid "e3821fd7-3673-426f-8106-5fbf368782ea")
+		)
+		(pin "MH2"
+			(uuid "b249e680-bec8-4fa8-baa8-3d8a5fa83612")
+		)
+		(pin "2"
+			(uuid "1eb2cca8-745e-4994-9fea-f17148a800ef")
+		)
+		(pin "A1"
+			(uuid "06cc0145-acb6-4bbb-a241-144e4c05a82b")
+		)
+		(pin "1"
+			(uuid "31196ddb-a368-4217-af30-0a871b5233bf")
+		)
+		(pin "B1"
+			(uuid "6d049587-acca-4f09-88bf-b54117102ea3")
+		)
+		(pin "MH1"
+			(uuid "f9799dcf-335e-4833-9cf6-3ad1ee879e70")
+		)
+		(pin "3"
+			(uuid "285d7418-94c0-4d59-b4ed-a53e0ac2610c")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "IC15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c496cd1-1b5c-401e-8752-78de1defc16d")
+		(property "Reference" "#PWR06"
+			(at 82.55 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.01 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93a6dab5-7ac6-4508-860d-30ce64a55a7d")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 261.62 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d304df9-34df-41a2-971c-9e757a79cfac")
+		(property "Reference" "#PWR016"
+			(at 267.97 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 265.43 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 261.62 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1deee6e4-d890-4b01-80d5-ea9f4124fce7")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:PEL12D-4225S-S1024")
+		(at 153.67 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4780433c-933b-415c-afac-791f385ffc2f")
+		(property "Reference" "IC10"
+			(at 156.7881 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PEL12D-4225S-S1024"
+			(at 156.7881 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PEL12D4225SS1024"
+			(at 66.37 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/pel12d-4225s-s1024/bourns"
+			(at -33.63 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PEL12D - 12 mm Encoder with Switch and Illuminated Shaft"
+			(at 153.67 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "25"
+			(at -233.63 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at -333.63 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PEL12D-4225S-S1024"
+			(at -433.63 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-PEL12D4225SS1024"
+			(at -533.63 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PEL12D-4225S-S1024?qs=fgHA1UgJI8D9waZeRmA%2FQA%3D%3D"
+			(at -633.63 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "PEL12D-4225S-S1024"
+			(at -733.63 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pel12d-4225s-s1024/bourns?region=nac"
+			(at -833.63 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "9b1116ff-5718-43c9-8356-5e3b2d4a6bfe")
+		)
+		(pin "C1"
+			(uuid "823c966b-63ab-4ceb-8749-c370bc2b64cb")
+		)
+		(pin "MH2"
+			(uuid "5a915493-3eb7-49c2-a53a-79143897505a")
+		)
+		(pin "2"
+			(uuid "f80a2785-18ba-4498-9049-31f1f804f2aa")
+		)
+		(pin "A1"
+			(uuid "0bd04aa8-d649-426c-9de8-347071656850")
+		)
+		(pin "1"
+			(uuid "ec5adbc2-3ee6-4a17-8491-634de7ad8591")
+		)
+		(pin "B1"
+			(uuid "3a178138-5992-403a-98f6-0e52ac390094")
+		)
+		(pin "MH1"
+			(uuid "d74e4094-9bde-4c33-9501-884d21662d05")
+		)
+		(pin "3"
+			(uuid "85b4db14-5a54-404e-9b45-6bd831d9c1ac")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "IC10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:PEL12D-4225S-S1024")
+		(at 58.42 154.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48e72ecc-52f8-49b5-abf5-725e8ed28999")
+		(property "Reference" "IC14"
+			(at 61.5381 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PEL12D-4225S-S1024"
+			(at 61.5381 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PEL12D4225SS1024"
+			(at -28.88 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/pel12d-4225s-s1024/bourns"
+			(at -128.88 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PEL12D - 12 mm Encoder with Switch and Illuminated Shaft"
+			(at 58.42 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "25"
+			(at -328.88 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at -428.88 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PEL12D-4225S-S1024"
+			(at -528.88 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-PEL12D4225SS1024"
+			(at -628.88 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PEL12D-4225S-S1024?qs=fgHA1UgJI8D9waZeRmA%2FQA%3D%3D"
+			(at -728.88 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "PEL12D-4225S-S1024"
+			(at -828.88 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pel12d-4225s-s1024/bourns?region=nac"
+			(at -928.88 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "297b7619-9e2c-43cb-853b-0fb6d330b042")
+		)
+		(pin "C1"
+			(uuid "bef00320-d8b6-434d-9892-0ce4c4da034a")
+		)
+		(pin "MH2"
+			(uuid "a7adc796-24cc-4b8b-a88e-376928799ca2")
+		)
+		(pin "2"
+			(uuid "727ff682-aa1b-4892-9ecc-6af83bbe6e9c")
+		)
+		(pin "A1"
+			(uuid "1c940e5a-20a2-4eb1-a915-3f79c2968cc5")
+		)
+		(pin "1"
+			(uuid "5560cd40-8cef-435b-8a89-b067c7b9f837")
+		)
+		(pin "B1"
+			(uuid "f5241a68-b851-4e04-ad17-2fb4c0ef0116")
+		)
+		(pin "MH1"
+			(uuid "4d6f8339-79a1-42dc-bcc6-aa3b980d4e58")
+		)
+		(pin "3"
+			(uuid "66144e40-f91c-4455-a04c-515aa47e093b")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "IC14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 157.48 168.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a7d4f78-df94-4e38-840d-64b1cb88c436")
+		(property "Reference" "#PWR07"
+			(at 163.83 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84785a64-406c-4731-bb73-de9019a5b1e8")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 151.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55a7ab86-89b0-4c78-b82d-03ba76eb2320")
+		(property "Reference" "#PWR049"
+			(at 139.7 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddd0b041-722e-43d0-903a-55ab794a9272")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:PEL12D-4225S-S1024")
+		(at 243.84 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56114b4c-2fa8-44e0-a774-8829b874a3b1")
+		(property "Reference" "IC12"
+			(at 246.9581 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PEL12D-4225S-S1024"
+			(at 246.9581 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PEL12D4225SS1024"
+			(at 156.54 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/pel12d-4225s-s1024/bourns"
+			(at 56.54 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PEL12D - 12 mm Encoder with Switch and Illuminated Shaft"
+			(at 243.84 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "25"
+			(at -143.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at -243.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PEL12D-4225S-S1024"
+			(at -343.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-PEL12D4225SS1024"
+			(at -443.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PEL12D-4225S-S1024?qs=fgHA1UgJI8D9waZeRmA%2FQA%3D%3D"
+			(at -543.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "PEL12D-4225S-S1024"
+			(at -643.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pel12d-4225s-s1024/bourns?region=nac"
+			(at -743.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "ff9b5f55-e8fd-4861-bc5d-4bb1750e3e5e")
+		)
+		(pin "C1"
+			(uuid "c52b3a7d-1eb9-417c-ab38-753e9d668367")
+		)
+		(pin "MH2"
+			(uuid "24c0e30b-12a9-4652-bb25-1c9ff7945cfb")
+		)
+		(pin "2"
+			(uuid "8d4fd55b-4008-450e-9eb5-ac3bfe19f94b")
+		)
+		(pin "A1"
+			(uuid "fe31a2f6-aa26-414a-9fb9-a4a736888410")
+		)
+		(pin "1"
+			(uuid "6b54e1a5-f002-42aa-b30d-04185d2761d3")
+		)
+		(pin "B1"
+			(uuid "e9de7715-c08c-4f6c-be0c-a372d55e5f6d")
+		)
+		(pin "MH1"
+			(uuid "c2d52ee6-0c2c-412c-9416-f3a19aad5886")
+		)
+		(pin "3"
+			(uuid "4568aa90-bf3c-4927-a075-517bdb7c9fcc")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "IC12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 43.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57c3900a-f2b2-4417-bb61-910e8dd30cd9")
+		(property "Reference" "#PWR033"
+			(at 128.27 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9dcd97ae-08ba-4698-b215-f82ccd21eaee")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 58.42 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60216485-5234-4856-8206-f05383ac0c8f")
+		(property "Reference" "#PWR047"
+			(at 58.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 58.42 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aabac373-036c-4caa-b97b-c5204290ed67")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 157.48 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6898b0e7-f95d-4847-92f3-217279f72c51")
+		(property "Reference" "#PWR018"
+			(at 163.83 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 161.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9d47ccd-d7da-4842-bc92-9f886e0c7c33")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "760e21e8-51ec-475a-a025-bafb4bfb623b")
+		(property "Reference" "#PWR032"
+			(at 153.67 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f2ce8af-8daf-4cfa-8718-0e4f84c7eda0")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77196546-81ad-4504-a4f5-214969e2ac90")
+		(property "Reference" "#PWR031"
+			(at 153.67 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e27b655-6629-4f55-8b34-8fb3b2bc3eef")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 120.65 166.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7808088b-deac-489e-8596-4dc85e39558b")
+		(property "Reference" "#PWR046"
+			(at 114.3 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 166.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "039c7bef-a698-4114-bdbc-55a50ea406dc")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 40.64 43.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7dfbab1e-5aa8-4a33-8b60-b026dba71b1c")
+		(property "Reference" "#PWR027"
+			(at 34.29 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 40.64 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bafb418b-cd18-427b-802b-4d1e2b7e0acf")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 261.62 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80ce7ee5-6320-45c7-8362-737d308ac20e")
+		(property "Reference" "#PWR013"
+			(at 267.97 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 265.43 38.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 261.62 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "774d70d1-8229-4cd6-817a-944ec11c78b8")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 171.45 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a84a035e-a4ea-4444-bb39-0d6a73ce846a")
+		(property "Reference" "#PWR015"
+			(at 177.8 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 171.45 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d35e6cee-7ba1-4bbf-ad46-ea0c5ac4a0d3")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 243.84 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf3d6e74-f8b5-4277-82bb-473b6786f759")
+		(property "Reference" "#PWR038"
+			(at 243.84 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 243.84 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0409539e-ec21-416a-a72d-f6120b2e64d3")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:PEL12D-4225S-S1024")
+		(at 139.7 153.67 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c13ebe76-c986-4564-976e-af72c2ed3c27")
+		(property "Reference" "IC16"
+			(at 142.8181 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PEL12D-4225S-S1024"
+			(at 142.8181 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PEL12D4225SS1024"
+			(at 52.4 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/pel12d-4225s-s1024/bourns"
+			(at -47.6 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PEL12D - 12 mm Encoder with Switch and Illuminated Shaft"
+			(at 139.7 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "25"
+			(at -247.6 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at -347.6 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PEL12D-4225S-S1024"
+			(at -447.6 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-PEL12D4225SS1024"
+			(at -547.6 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PEL12D-4225S-S1024?qs=fgHA1UgJI8D9waZeRmA%2FQA%3D%3D"
+			(at -647.6 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "PEL12D-4225S-S1024"
+			(at -747.6 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pel12d-4225s-s1024/bourns?region=nac"
+			(at -847.6 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "29b00b40-317e-4f1f-8c54-712ccffba7a9")
+		)
+		(pin "C1"
+			(uuid "ce1305e2-4690-4d2b-a100-f4a43ded5118")
+		)
+		(pin "MH2"
+			(uuid "e81af21c-538f-4d43-8c3a-524f1619b8c6")
+		)
+		(pin "2"
+			(uuid "8146267e-446f-4976-8411-a87745beb6c5")
+		)
+		(pin "A1"
+			(uuid "2df4c69b-b699-44ac-941e-d5150c76e374")
+		)
+		(pin "1"
+			(uuid "a6ab9ae8-c7cd-4638-ab8b-c6896b9f3ffa")
+		)
+		(pin "B1"
+			(uuid "3cc89cf1-3937-40a4-9737-e71ea4dd924b")
+		)
+		(pin "MH1"
+			(uuid "eb446cdf-aa02-4cb3-9641-7e5d4a925bba")
+		)
+		(pin "3"
+			(uuid "90443f68-a1fb-4ed9-a0da-88682afd0e66")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "IC16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 58.42 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3645676-4d78-48df-9544-dfe4283baac9")
+		(property "Reference" "#PWR044"
+			(at 58.42 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 58.42 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac1d1e1d-35e9-422d-b2ad-ff8c25610c9d")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 261.62 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "caf6cc91-a213-42a7-a522-f49dc19374a5")
+		(property "Reference" "#PWR05"
+			(at 267.97 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 265.43 45.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 261.62 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ae29946-1042-4771-ac6e-49461202c728")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 77.47 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbc959b8-ffb1-439d-aaca-af74906b72a6")
+		(property "Reference" "#PWR01"
+			(at 83.82 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 45.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab20beb0-c923-48c3-a12d-17de62ded084")
+		)
+		(instances
+			(project ""
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 59.69 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4e39c63-8237-4e97-bf17-3fa078d5c422")
+		(property "Reference" "#PWR030"
+			(at 59.69 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.69 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb0dd719-9580-4e51-941b-7686dbc4a0a7")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 261.62 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3dfd055-1c68-449b-8049-5d153eb69ab0")
+		(property "Reference" "#PWR09"
+			(at 267.97 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 265.43 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 261.62 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "718330ab-06a4-4227-a851-331074d6be58")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 171.45 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5daf542-e243-4808-a8fe-4211828fa9e9")
+		(property "Reference" "#PWR010"
+			(at 177.8 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 171.45 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c56003f7-f40b-4792-95c8-f33bda11d1fe")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:PEL12D-4225S-S1024")
+		(at 59.69 30.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7286515-6012-41f7-8b51-97dfac9558df")
+		(property "Reference" "IC9"
+			(at 62.8081 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PEL12D-4225S-S1024"
+			(at 62.8081 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PEL12D4225SS1024"
+			(at -27.61 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/pel12d-4225s-s1024/bourns"
+			(at -127.61 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PEL12D - 12 mm Encoder with Switch and Illuminated Shaft"
+			(at 59.69 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "25"
+			(at -327.61 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at -427.61 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PEL12D-4225S-S1024"
+			(at -527.61 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-PEL12D4225SS1024"
+			(at -627.61 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PEL12D-4225S-S1024?qs=fgHA1UgJI8D9waZeRmA%2FQA%3D%3D"
+			(at -727.61 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "PEL12D-4225S-S1024"
+			(at -827.61 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pel12d-4225s-s1024/bourns?region=nac"
+			(at -927.61 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "e319b57d-1ae9-4ef9-9723-55ca60211f94")
+		)
+		(pin "C1"
+			(uuid "49f8c219-0c77-4a06-81bf-ed586b6eb908")
+		)
+		(pin "MH2"
+			(uuid "c7fa13bb-ee93-4419-a456-239cf321d4c9")
+		)
+		(pin "2"
+			(uuid "5ba1d1f2-5e2c-48a8-b797-ba78d21379db")
+		)
+		(pin "A1"
+			(uuid "08c12ba5-d10b-4f85-b460-8524e394928d")
+		)
+		(pin "1"
+			(uuid "211111eb-4713-4794-847a-68fb03758ad4")
+		)
+		(pin "B1"
+			(uuid "1a1836db-8f1e-4799-a4f6-5ae731fce001")
+		)
+		(pin "MH1"
+			(uuid "709a7a30-f481-499a-98b4-5c1fefdba05b")
+		)
+		(pin "3"
+			(uuid "ce27037a-659d-4ab7-a92a-99e05a2e7e45")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "IC9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 243.84 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea49b001-4b28-4892-8b05-c171ba3f316d")
+		(property "Reference" "#PWR042"
+			(at 243.84 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 243.84 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4ceb91c-eb03-4641-9ccd-67647555a9e2")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 243.84 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee6361a2-649b-46d3-81cf-58e57c16217f")
+		(property "Reference" "#PWR037"
+			(at 243.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 243.84 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54bc9e4f-b433-40b5-b2a8-181f5ee4d702")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 77.47 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1291afa-72b3-45ab-ab8c-de32f7eaf458")
+		(property "Reference" "#PWR011"
+			(at 83.82 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 38.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "949a3e91-fb33-4c4b-b596-ed32790a50b5")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 39.37 100.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9e430ed-6957-4521-946a-08ad7e7231f2")
+		(property "Reference" "#PWR045"
+			(at 33.02 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9272061-09bc-4c4d-b904-d2ae357fef59")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 170.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb020da2-7518-44a4-bfb2-858c0230e1d0")
+		(property "Reference" "#PWR08"
+			(at 82.55 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.01 170.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c2714cb-9997-459f-ab69-c158117e74f0")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 171.45 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc17f2db-44ce-4f27-86c4-c4868bece5be")
+		(property "Reference" "#PWR02"
+			(at 177.8 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 45.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 171.45 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58a77586-b6a9-4f85-a55c-03e10a051146")
+		)
+		(instances
+			(project ""
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 162.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe760cf8-5fad-496b-820e-689c1532df1f")
+		(property "Reference" "#PWR017"
+			(at 82.55 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.01 162.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57ec1579-3af6-4e64-83ea-e9f88c8b2abb")
+		)
+		(instances
+			(project "LOF"
+				(path "/653135ad-7f34-4b95-a1b9-c5fd6fe47a1d/daefe003-d8cf-4691-bd0f-767a0f461cd3/76190501-1410-4ea3-90f7-7288735142dd"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
