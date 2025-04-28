@@ -3403,7 +3403,7 @@
 		)
 		(uuid "64bb8300-392e-42b1-b96c-94b6ce3d46e0")
 	)
-	(hierarchical_label "5V"
+	(hierarchical_label "3.3V"
 		(shape input)
 		(at 22.86 30.48 180)
 		(effects
