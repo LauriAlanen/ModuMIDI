@@ -34,26 +34,11 @@
 #include "encoder.h"
 #include "switch.h"
 
-//--------------------------------------------------------------------+
-// MACRO CONSTANT TYPEDEF PROTYPES
-//--------------------------------------------------------------------+
 
-/* Blink pattern
- * - 250 ms  : device not mounted
- * - 1000 ms : device mounted
- * - 2500 ms : device is suspended
- */
+#define TOTAL_CONTROLS (SWITCH_CH_COUNT + ENC_COUNT)
 
-
-enum {
-    BLINK_NOT_MOUNTED = 250,
-    BLINK_MOUNTED     = 1000,
-    BLINK_SUSPENDED   = 2500,
-};
-
-static uint32_t blink_interval_ms = BLINK_NOT_MOUNTED;
-
-void led_blinking_task(void);
+// holds last‐sent CC values, init to 0xFF so first send always happens
+static int16_t last_cc[TOTAL_CONTROLS];
 
 /*------------- MAIN -------------*/
 int main(void) {
@@ -72,11 +57,11 @@ int main(void) {
     while (1) {
         tud_task(); // TinyUSB device task
 
-        /*         if (switch_get_state(SWITCH_CH_4)) {
-                    midi_send_cc(SWITCH_CH_4, 127);
-                } else {
-                    midi_send_cc(SWITCH_CH_4, 0);
-                } */
+        if (switch_get_state(SWITCH_CH_4)) {
+            midi_send_cc(SWITCH_CH_4, 127);
+        } else {
+            midi_send_cc(SWITCH_CH_4, 0);
+        }
 
         int32_t count = encoder_get_count(ENC_1);
         if (count != 0) {
@@ -84,48 +69,7 @@ int main(void) {
             encoder_get_count(ENC_1); // reset count
         }
 
-
         // Optional: throttle loop
         sleep_ms(10);
     }
-}
-
-//--------------------------------------------------------------------+
-// Device callbacks
-//--------------------------------------------------------------------+
-
-// Invoked when device is mounted
-void tud_mount_cb(void) {
-    blink_interval_ms = BLINK_MOUNTED;
-}
-
-// Invoked when device is unmounted
-void tud_umount_cb(void) {
-    blink_interval_ms = BLINK_NOT_MOUNTED;
-}
-
-// Invoked when usb bus is suspended
-// remote_wakeup_en : if host allow us  to perform remote wakeup
-// Within 7ms, device must draw an average of current less than 2.5 mA from bus
-void tud_suspend_cb(bool remote_wakeup_en) {
-    (void)remote_wakeup_en;
-    blink_interval_ms = BLINK_SUSPENDED;
-}
-
-// Invoked when usb bus is resumed
-void tud_resume_cb(void) {
-    blink_interval_ms = tud_mounted() ? BLINK_MOUNTED : BLINK_NOT_MOUNTED;
-}
-
-void led_blinking_task(void) {
-    static uint32_t start_ms = 0;
-    static bool led_state    = false;
-
-    // Blink every interval ms
-    if (board_millis() - start_ms < blink_interval_ms)
-        return; // not enough time
-    start_ms += blink_interval_ms;
-
-    board_led_write(led_state);
-    led_state = 1 - led_state; // toggle
 }
