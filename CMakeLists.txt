@@ -46,6 +46,8 @@ pico_enable_stdio_usb(ModuMIDI 0)
 target_sources(ModuMIDI PRIVATE
         ${CMAKE_CURRENT_LIST_DIR}/firmware/core/usb_descriptors.c
         ${CMAKE_CURRENT_LIST_DIR}/firmware/core/midi.c
+        ${CMAKE_CURRENT_LIST_DIR}/firmware/core/encoder.c
+        ${CMAKE_CURRENT_LIST_DIR}/firmware/core/switch.c
         )
         
 # Add include directories for main executable

@@ -31,6 +31,9 @@
 #include "midi.h"
 #include "tusb.h"
 
+#include "encoder.h"
+#include "switch.h"
+
 //--------------------------------------------------------------------+
 // MACRO CONSTANT TYPEDEF PROTYPES
 //--------------------------------------------------------------------+
@@ -55,6 +58,7 @@ void led_blinking_task(void);
 /*------------- MAIN -------------*/
 int main(void) {
     board_init();
+    switch_init();
 
     // init device stack on configured roothub port
     tusb_rhport_init_t dev_init = { .role = TUSB_ROLE_DEVICE, .speed = TUSB_SPEED_AUTO };
@@ -65,13 +69,16 @@ int main(void) {
     }
 
     while (1) {
-        tud_task(); // tinyusb device task
-        led_blinking_task();
+        tud_task(); // TinyUSB device task
 
-        for (int i = 0; i < 10; i++) {
-            midi_send_cc(10, i * 10);
-            board_delay(100);
+        if (switch_get_state(SWITCH_CH_4)) {
+            midi_send_cc(SWITCH_CH_4, 127);
+        } else {
+            midi_send_cc(SWITCH_CH_4, 0);
         }
+
+        // Optional: throttle loop
+        sleep_ms(1);
     }
 }
 

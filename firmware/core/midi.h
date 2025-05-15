@@ -1,10 +1,11 @@
 #ifndef _MIDI_H_
 #define _MIDI_H_
 
+#include <stdbool.h>
 #include <stdint.h>
 #include <stdio.h>
 
-#define MIDI_CH 0
+#define MIDI_CH 10
 #define MIDI_CABLE_NUM 0
 
 #define MIDI_CC_CMD 0xB0
