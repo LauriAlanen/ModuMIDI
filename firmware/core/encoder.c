@@ -28,16 +28,20 @@ void encoder_init(void) {
     // Initialize each encoder
     for (int i = 0; i < ENC_COUNT; i++) {
         encoder_t* enc = &encoders[i];
+
+        // Initialize GPIO pins
         gpio_init(enc->pin_a);
         gpio_init(enc->pin_b);
         gpio_set_dir(enc->pin_a, GPIO_IN);
         gpio_set_dir(enc->pin_b, GPIO_IN);
         gpio_pull_up(enc->pin_a);
         gpio_pull_up(enc->pin_b);
+
         // Read initial state
         uint8_t a  = gpio_get(enc->pin_a);
         uint8_t b  = gpio_get(enc->pin_b);
         enc->state = (a << 1) | b;
+
         // Attach ISR on both edges of A and B
         gpio_set_irq_enabled_with_callback(
         enc->pin_a, GPIO_IRQ_EDGE_RISE | GPIO_IRQ_EDGE_FALL, true, encoder_isr);
@@ -46,8 +50,15 @@ void encoder_init(void) {
 }
 
 int32_t encoder_get_count(encoder_id_t id) {
-    if (id < ENC_COUNT) {
-        return encoders[id].count;
+    if (id >= ENC_COUNT) {
+        return 0;
     }
-    return 0;
+
+    if (encoders[id].count > 127) {
+        encoders[id].count = 127;
+    } else if (encoders[id].count < 0) {
+        encoders[id].count = 0;
+    }
+
+    return encoders[id].count;
 }
