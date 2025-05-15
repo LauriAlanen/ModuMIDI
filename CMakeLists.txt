@@ -48,8 +48,9 @@ target_sources(ModuMIDI PRIVATE
         ${CMAKE_CURRENT_LIST_DIR}/firmware/core/midi.c
         ${CMAKE_CURRENT_LIST_DIR}/firmware/core/encoder.c
         ${CMAKE_CURRENT_LIST_DIR}/firmware/core/switch.c
-        )
-        
+        ${CMAKE_CURRENT_LIST_DIR}/firmware/core/pca9685.c
+)
+
 # Add include directories for main executable
 target_include_directories(ModuMIDI PRIVATE
     ${CMAKE_CURRENT_LIST_DIR}/firmware/core
