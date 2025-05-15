@@ -5,7 +5,8 @@
 #include <stdbool.h>
 #include <stdint.h>
 
-typedef enum { ENC_1 = 0, ENC_2, ENC_COUNT } encoder_id_t;
+#define ENC_COUNT 2
+typedef enum { ENC_1 = 0, ENC_2 = 1 } encoder_ch_t;
 
 // Per-encoder data
 typedef struct {
@@ -17,6 +18,6 @@ typedef struct {
 
 // Public API
 void encoder_init(void);
-int32_t encoder_get_count(encoder_id_t id);
+int32_t encoder_get_count(encoder_ch_t ch);
 
 #endif // ENCODER_H

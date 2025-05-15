@@ -49,16 +49,16 @@ void encoder_init(void) {
     }
 }
 
-int32_t encoder_get_count(encoder_id_t id) {
-    if (id >= ENC_COUNT) {
-        return 0;
+int32_t encoder_get_count(encoder_ch_t ch) {
+    if (ch >= ENC_COUNT) {
+        return 0; // Invalid channel
     }
 
-    if (encoders[id].count > 127) {
-        encoders[id].count = 127;
-    } else if (encoders[id].count < 0) {
-        encoders[id].count = 0;
+    if (encoders[ch].count > 127) {
+        encoders[ch].count = 127;
+    } else if (encoders[ch].count < 0) {
+        encoders[ch].count = 0;
     }
 
-    return encoders[id].count;
+    return encoders[ch].count;
 }
