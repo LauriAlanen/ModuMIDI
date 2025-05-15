@@ -18,8 +18,17 @@ void switch_init(void) {
 }
 
 bool switch_get_state(switch_channel_t ch) {
-    if (ch < SWITCH_CH_COUNT) {
+    if (switch_validate_channel(ch)) {
         return !gpio_get(switches[ch].pin);
+    }
+    return false;
+}
+
+bool switch_validate_channel(switch_channel_t ch) {
+    for (int i = 0; i < SWITCH_CH_COUNT; ++i) {
+        if (switches[i].channel == ch) {
+            return true;
+        }
     }
     return false;
 }
