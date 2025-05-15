@@ -59,6 +59,7 @@ void led_blinking_task(void);
 int main(void) {
     board_init();
     switch_init();
+    encoder_init();
 
     // init device stack on configured roothub port
     tusb_rhport_init_t dev_init = { .role = TUSB_ROLE_DEVICE, .speed = TUSB_SPEED_AUTO };
@@ -71,14 +72,21 @@ int main(void) {
     while (1) {
         tud_task(); // TinyUSB device task
 
-        if (switch_get_state(SWITCH_CH_4)) {
-            midi_send_cc(SWITCH_CH_4, 127);
-        } else {
-            midi_send_cc(SWITCH_CH_4, 0);
+        /*         if (switch_get_state(SWITCH_CH_4)) {
+                    midi_send_cc(SWITCH_CH_4, 127);
+                } else {
+                    midi_send_cc(SWITCH_CH_4, 0);
+                } */
+
+        int32_t count = encoder_get_count(ENC_1);
+        if (count != 0) {
+            midi_send_cc(ENC_1, count);
+            encoder_get_count(ENC_1); // reset count
         }
 
+
         // Optional: throttle loop
-        sleep_ms(1);
+        sleep_ms(10);
     }
 }
 
