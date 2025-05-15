@@ -12,7 +12,7 @@
 
 void midi_task(void);
 void midi_send_cc(uint8_t cc, uint8_t value);
-void midi_receive_cc(uint8_t cc, uint8_t value);
+void midi_drain_input(void);
 
 void led_blinking_task(void);
 

@@ -56,7 +56,6 @@ int main(void) {
 
     while (1) {
         tud_task(); // TinyUSB device task
-
         if (switch_get_state(SWITCH_CH_4)) {
             midi_send_cc(SWITCH_CH_4, 127);
         } else {
@@ -69,7 +68,7 @@ int main(void) {
             encoder_get_count(ENC_1); // reset count
         }
 
-        // Optional: throttle loop
-        sleep_ms(10);
+        midi_drain_input();
+        sleep_ms(1);
     }
 }
