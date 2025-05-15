@@ -3,7 +3,20 @@
 #include "tusb.h"
 
 void midi_send_cc(uint8_t cc, uint8_t value) {
-    uint8_t midi_packet[3] = { MIDI_CC_CMD | MIDI_CH, cc, value };
+    static uint8_t last_sent[128];
+    static bool initialized = false;
+
+    if (!initialized) {
+        memset(last_sent, 0xFF, sizeof(last_sent));
+        initialized = true;
+    }
+
+    if (last_sent[cc] == value) {
+        return;
+    }
+    last_sent[cc] = value;
+
+    uint8_t midi_packet[3] = { (uint8_t)(MIDI_CC_CMD | (MIDI_CH & 0x0F)), cc, value };
     tud_midi_stream_write(MIDI_CABLE_NUM, midi_packet, sizeof(midi_packet));
 }
 
