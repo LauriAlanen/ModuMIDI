@@ -4,7 +4,7 @@
 #include "hardware/i2c.h"
 #include <stdint.h>
 
-// from https://github.com/grzesiek2201/Adafruit-Servo-Driver-Library-Pi-Pico/blob/main/PCA9685_servo_driver.h
+// defines and some logic from https://github.com/grzesiek2201/Adafruit-Servo-Driver-Library-Pi-Pico/blob/main/PCA9685_servo_driver.h
 #define PCA9685_MODE1 0x00      /**< Mode Register 1 */
 #define PCA9685_MODE2 0x01      /**< Mode Register 2 */
 #define PCA9685_SUBADR1 0x02    /**< I2C-bus subaddress 1 */
@@ -40,14 +40,30 @@
 #define MODE2_OCH 0x08    /**< Outputs change on ACK vs STOP */
 #define MODE2_INVRT 0x10  /**< Output logic state inverted */
 
-#define PCA9685_I2C_ADDRESS 0x40      /**< Default PCA9685 I2C Slave Address */
-#define FREQUENCY_OSCILLATOR 25000000 /**< Int. osc. frequency in datasheet */
+#define PCA9685_I2C_ADDRESS 0x40
+#define PCA9685_OSCILLATOR_FREQ 25000000.0f /**< 25MHz oscillator frequency */
+#define PCA9685_PRESCALE_MIN 3
+#define PCA9685_PRESCALE_MAX 255
 
-#define PCA9685_PRESCALE_MIN 3   /**< minimum prescale value */
-#define PCA9685_PRESCALE_MAX 255 /**< maximum prescale value */
+#define PCA9685_MAX_PWM 4095
+#define PCA9685_MIN_PWM 0
+
+#define PCA9685_MAX_FREQ 1000
+#define PCA9685_MIN_FREQ 1
+#define PCA9685_DEFAULT_FREQ 60
+
+#define USE_I2C_DEFAULTS
+#define PCA9685_SDA_PIN 0
+#define PCA9685_SCL_PIN 1
+
+#define PCA9685_BRIGHTNESS_MAX 100
+#define PCA9685_BRIGHTNESS_MIN 0
+#define PCA9685_BRIGHTNESS_DEFAULT 50
+
+#define PCA9685_PWM_RESOLUTION 4096.0f
 
 void pca9685_init(i2c_inst_t* i2c, uint8_t address);
-void pca9685_set_pwm(i2c_inst_t* i2c, uint8_t channel, uint16_t on, uint16_t off);
-void pca9685_set_pwm_freq(i2c_inst_t* i2c, uint16_t freq);
-
+void pca9685_set_pwm(i2c_inst_t* i2c, uint8_t address, uint8_t channel, uint16_t off);
+void pca9685_set_pwm_freq(i2c_inst_t* i2c, uint8_t address, uint16_t freq);
+uint16_t brightness_to_off(uint8_t percent);
 #endif // PCA9685_H
