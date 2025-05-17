@@ -2,18 +2,11 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "bsp/board_api.h"
-#include "midi.h"
-#include "tusb.h"
-
 #include "encoder.h"
+#include "midi.h"
+#include "pca9685.h"
 #include "switch.h"
-
-
-#define TOTAL_CONTROLS (SWITCH_CH_COUNT + ENC_COUNT)
-
-// holds last‐sent CC values, init to 0xFF so first send always happens
-static int16_t last_cc[TOTAL_CONTROLS];
+#include "tusb.h"
 
 /*------------- MAIN -------------*/
 int main(void) {
@@ -42,7 +35,6 @@ int main(void) {
             midi_send_cc(ENC_1, count);
             encoder_get_count(ENC_1); // reset count
         }
-
         midi_drain_input();
         sleep_ms(1);
     }
