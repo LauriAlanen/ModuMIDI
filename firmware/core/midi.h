@@ -5,7 +5,7 @@
 #include <stdint.h>
 #include <stdio.h>
 
-#define MIDI_CH 10
+#define MIDI_CH 1
 #define MIDI_CABLE_NUM 0
 
 #define MIDI_CC_CMD 0xB0
