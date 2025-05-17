@@ -6,7 +6,8 @@
 static const int8_t quad_fsm[16] = { 0, -1, +1, 0, +1, 0, 0, -1, -1, 0, 0, +1,
     0, +1, -1, 0 };
 
-static encoder_t encoders[ENC_COUNT] = { { .pin_a = 8, .pin_b = 9, .count = 0, .state = 0 } };
+static encoder_t encoders[ENC_COUNT] = { { .pin_a = 8, .pin_b = 9, .count = 0, .state = 0 },
+    { .pin_a = 16, .pin_b = 17, .count = 0, .state = 0 } };
 
 static void encoder_isr(uint gpio, uint32_t events) {
     // Find which encoder triggered
