@@ -43,12 +43,15 @@ pico_set_program_version(ModuMIDI "0.1")
 pico_enable_stdio_uart(ModuMIDI 1)
 pico_enable_stdio_usb(ModuMIDI 0)
 
+add_compile_options(-Wall -Wextra -pedantic)
+
 target_sources(ModuMIDI PRIVATE
         ${CMAKE_CURRENT_LIST_DIR}/firmware/core/usb_descriptors.c
         ${CMAKE_CURRENT_LIST_DIR}/firmware/core/midi.c
         ${CMAKE_CURRENT_LIST_DIR}/firmware/core/encoder.c
         ${CMAKE_CURRENT_LIST_DIR}/firmware/core/switch.c
         ${CMAKE_CURRENT_LIST_DIR}/firmware/core/pca9685.c
+        ${CMAKE_CURRENT_LIST_DIR}/firmware/core/pca9685_test.c
 )
 
 # Add include directories for main executable
